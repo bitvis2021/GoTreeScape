@@ -1,0 +1,34 @@
+{
+    "Title": "Node-Link",
+    "Element": {
+        "Node": "circle",
+        "Link": "straight",
+        "Color": "adaptive"
+    },
+    "CoordinateSystem": {
+        "Category": "cartesian"
+    },
+    "Layout": {
+        "Category": "AxisIndependent",
+        "Mode": "bottom-up",
+        "X": {
+            "Root": {
+                "Relation": "included"
+            },
+            "Siblings": {
+                "Relation": "flatten",
+                "Margin": 0.3
+            }
+        },
+        "Y": {
+            "Root": {
+                "Relation": "juxtapose",
+                "Margin": "0.2r"
+            },
+            "Siblings": {
+                "Relation": "align",
+                "Alignment": "top"
+            }
+        }
+    }
+}

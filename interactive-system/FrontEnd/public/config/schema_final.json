@@ -1,0 +1,165 @@
+{
+  "title": "Example Schema",
+  "type": "object",
+  "properties": {
+      "Element": {
+        "type": "object",
+        "properties": {
+          "Node": {
+            "enum": ["rect", "circle", "hidden"]
+          },
+          "Link": {
+            "enum": ["straight", "curveStepX", "orthogonal", "curveStepAfter", "curveStepBefore", "curve", "linkHorizontal", "arccurve", "arccurveBoth", "hidden"]
+          },
+          "Color": {
+            "enum": ["depth", "adaptive"]
+          },
+          "LinkWidth": {
+            "enum": ["depth", "adaptive"]
+          },
+          "RootWidth": {
+             "enum": ["depth", "rdepth", "width", "height", "adaptive"]
+          },
+          "RootHeight": {
+             "enum": ["depth", "rdepth", "width", "height", "adaptive"]
+          }, 
+          "Label": {
+             "enum": [true, false]
+          }
+        },
+        "required": ["Node", "Link"]
+      },
+      "CoordinateSystem": {
+        "type": "object",
+        "properties": {
+          "Category":  {
+            "enum": ["polar", "cartesian"]
+          },
+          "Theta": {
+          },
+          "PolarAxis": {
+            "enum": ["x-axis", "y-axis"]
+          },
+          "Direction": {
+            "enum": ["clockwise", "anticlockwise"]
+          },
+          "PolarInnerRadius": {
+            "type": "number"
+          }
+        },
+        "required": ["Category"]
+      }, 
+      "Layout": {
+        "type": "object",
+        "properties": {
+          "Category": {
+            "enum": ["AxisIndependent", "AxisDependent"]
+          },
+          "X": {
+            "type": "object",
+            "properties": {
+                "Root": {
+                  "type": "object",
+                  "required": ["Relation"],
+                  "properties": {
+                      "Relation": {
+                        "enum": ["include", "juxtapose", "within"]
+                      },
+                      "Alignment": {
+                        "enum": ["left", "center", "right", "top", "bottom"]
+                      },
+                      "Padding": {
+                      },
+                      "Margin": {
+                      },
+                      "Position": {
+                        "enum": ["left", "right", "top", "bottom"]
+                      }
+                  }
+                },
+                "Siblings": {
+                  "type": "object",
+                  "required": ["Relation"],
+                  "properties": {
+                      "Relation": {
+                        "enum": ["flatten", "align"]
+                      },
+                      "SortingOrder": {
+                        "enum": ["asc", "desc"]
+                      },
+                      "SortingCriteria": {
+                        "enum": ["index", "value"]
+                      },
+                      "Margin": {
+                      },
+                      "Alignment": {
+                        "enum": ["left", "center", "right", "top", "bottom"]
+                      }
+                  }
+                }
+              },
+              "required": ["Root", "Siblings"]
+          },
+          "Y": {
+            "type": "object",
+            "properties": {
+              "Root": {
+                "type": "object",
+                "required": ["Relation"],
+                "properties": {
+                    "Relation": {
+                      "enum": ["include", "juxtapose", "within"]
+                    },
+                    "Alignment": {
+                      "enum": ["left", "center", "right", "top", "bottom"]
+                    },
+                    "Padding": {
+                    },
+                    "Margin": {
+                    },
+                    "Position": {
+                      "enum": ["left", "right", "top", "bottom"]
+                    }
+                }
+              },
+              "Siblings": {
+                "type": "object",
+                "required": ["Relation"],
+                "properties": {
+                    "Relation": {
+                      "enum": ["flatten", "align"]
+                    },
+                    "SortingOrder": {
+                      "enum": ["asc", "desc"]
+                    },
+                    "SortingCriteria": {
+                      "enum": ["index", "value"]
+                    },
+                    "Margin": {
+                    },
+                    "Alignment": {
+                      "enum": ["left", "center", "right", "top", "bottom"]
+                    }
+                }
+              }
+            },
+            "required": ["Root", "Siblings"]
+          },
+          "SubtreeWidth": {
+            "enum": ["depth", "rdepth", "width", "height", "adaptive"]
+          },
+          "SubtreeHeight": {
+            "enum": ["depth", "rdepth", "width", "height", "adaptive"]
+          },    
+          "Mode": {
+            "enum": ["bottom-up", "top-down"]
+          },
+          "AxisDependent": {
+            "enum": ["Packing", "Force", "Voronoi", "Squarify"]
+          }
+        },
+        "required": ["Category", "Mode", "X"]
+      }
+  },
+  "required": ["Element", "CoordinateSystem", "Layout"]
+}

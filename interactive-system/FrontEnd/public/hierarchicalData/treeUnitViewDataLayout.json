@@ -1,0 +1,53 @@
+{
+  "index-1": {
+    "width": 1,
+    "height": 1,
+    "root": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "id": "index-1",
+    "subtreeLayout": []
+  },
+  "index-2": {
+    "width": 1,
+    "height": 1,
+    "root": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "id": "index-2",
+    "subtreeLayout": []
+  },
+  "index-0": {
+    "width": 2,
+    "height": 2,
+    "root": {
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    "id": "index-0",
+    "subtreeLayout": [
+      {
+        "x": 0,
+        "y": 1,
+        "width": 1,
+        "height": 1,
+        "id": "index-2"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "width": 1,
+        "height": 1,
+        "id": "index-1"
+      }
+    ]
+  }
+}

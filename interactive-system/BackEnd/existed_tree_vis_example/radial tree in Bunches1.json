@@ -1,0 +1,49 @@
+{
+  "Name": "NodeLink",
+  "Element": {
+    "Node": "circle",
+    "Link": "orthogonal",
+    "Thickness": "static",
+    "StaticThickness": 2,
+    "Color": "depth",
+    "ColorSchema": "option1",
+    "LabelAnchor": "middle",
+    "LinkWidth": "static",
+    "LinkDisplay": "bottom"
+  },
+  "CoordinateSystem": {
+    "Category": "polar",
+    "PolarCenterPos": "bottom",
+    "PolarCenterType": "root",
+    "CentralAngle": 1,
+    "InnerRadius": 0
+  },
+  "Layout": {
+    "Category": "AxisIndependent",
+    "Mode": "bottom-up",
+    "X": {
+      "Root": {
+        "Relation": "juxtapose"
+      },
+      "Subtree": {
+        "Relation": "flatten",
+        "Margin": "0.12w"
+      }
+    },
+    "Y": {
+      "Root": {
+        "Relation": "include",
+        "Padding": [
+          "-0.49",
+          "0.02"
+        ]
+      },
+      "Subtree": {
+        "Relation": "align",
+        "Alignment": "top"
+      }
+    },
+    "SubtreeWidth": "adaptive",
+    "SubtreeHeight": "adaptive"
+  }
+}

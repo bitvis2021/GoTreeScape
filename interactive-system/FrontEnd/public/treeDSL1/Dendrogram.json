@@ -1,0 +1,35 @@
+{
+    "Title": "phylogenetic",
+    "Element": {
+        "Node": "hidden",
+        "Link": "curveStepAfter",
+        "Color": "adaptive"
+    },
+    "CoordinateSystem": {
+        "Category": "cartesian"
+    },
+    "Layout": {
+        "Category": "AxisIndependent",
+        "Mode": "bottom-up",
+        "X": {
+            "Root": {
+                "Relation": "included",
+                "Padding": 0.02
+            },
+            "Siblings": {
+                "Relation": "flatten",
+                "Margin": "0.02r"
+            }
+        },
+        "Y": {
+            "Root": {
+                "Relation": "juxtapose",
+                "Margin": "0.2r"
+            },
+            "Siblings": {
+                "Relation": "align",
+                "Alignment": "bottom"
+            }
+        }
+    }
+}

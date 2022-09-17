@@ -1,0 +1,49 @@
+{
+  "Title": "Icicle",
+  "Element": {
+    "Node": "rect",
+    "Link": "hidden", 
+    "Color": "depth",
+    "Width": "value",
+    "Height": "adaptive",
+    "SubtreeWidth": "value",
+    "SubtreeHeight": "height"
+  },
+  "Layout": {
+    "Category": "linear", 
+    "Linear": {
+      "X": {
+        "Relation": {
+          "Category": "inclusion",
+          "Padding": 0
+        },
+        "TreeSorting": {
+          "Criteria": "null"
+        },
+        "SubtreeSorting":  {
+          "Criteria": "index",
+          "Order": "asc",
+          "Padding": 0
+        }
+      },
+      "Y": {
+        "Relation": {
+          "Category": "adjacency"
+        },
+        "TreeSorting": {
+          "Criteria": "depth",
+          "Order": "asc",
+          "Padding": 0
+        },
+        "SubtreeSorting": {
+          "Criteria": "null",
+          "Alignment": 0
+        }
+      }
+    }, 
+    "LayoutMode": "top-down"
+  },
+  "CoordinateSystem": {
+    "Category": "cartesian"
+  }
+}

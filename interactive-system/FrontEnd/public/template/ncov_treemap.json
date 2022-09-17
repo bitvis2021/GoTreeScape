@@ -1,0 +1,20 @@
+{
+	"templates": [
+		{
+			"query": {
+				"attribute": "depth",
+				"criteria": "odd"
+			},
+			"recursive": false,
+			"dslname": "slice"
+		},
+		{
+			"query": {
+				"attribute": "depth",
+				"criteria": "even"
+			},
+			"recursive": false,
+			"dslname": "dice"
+		}
+	]
+}

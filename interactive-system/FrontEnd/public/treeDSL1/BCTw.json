@@ -1,0 +1,34 @@
+{
+    "Element": {
+      "Node": "rect",
+      "RootWidth": "height",
+      "Link": "hidden",
+      "Color": "adaptive"
+    },
+    "CoordinateSystem": {
+        "Category": "cartesian"
+    },
+    "Layout": {
+      "Category": "AxisIndependent",
+      "X": {
+          "Root": {
+            "Relation": "juxtapose",
+            "Margin": 0.05
+          },
+          "Siblings": {
+            "Relation": "flatten",
+            "Margin": 0.05
+          }
+      },
+      "Y": {
+          "Root": {
+            "Relation": "included"
+          },
+          "Siblings": {
+            "Relation": "align"
+          }
+      },
+      "Mode": "bottom-up"
+    }
+  }
+  

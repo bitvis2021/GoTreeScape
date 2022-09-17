@@ -1,0 +1,183 @@
+{
+  "title": "Example Schema",
+  "type": "object",
+  "properties": {
+    "Element": {
+      "type": "object",
+      "properties": {
+        "Node": {
+          "enum": ["rect", "ellipse", "polygon", "hidden"]
+        },
+        "Link": {
+          "enum": ["straight", "orthogonal", "curve", "hidden"]
+        },
+        "Color": {
+        },
+        "Width": {
+        },
+        "Height": {
+        }
+      },
+      "required": ["Node", "Link", "Color"]
+    },
+    "Layout": {
+      "type": "object",
+      "required": ["Category", "LayoutMode"],
+      "properties": {
+        "Category": {
+          "enum": ["linear", "nonlinear"]
+        }, 
+        "Linear": {
+          "type": "object",
+          "required": ["X"],
+          "properties": {
+            "X": {
+              "type": "object",
+              "properties": {
+                "Relation": {
+                  "type": "object",
+                  "required": ["Category"],
+                  "properties": {
+                    "Category": {
+                      "enum": ["separation", "adjacency", "overlapping", "inclusion", "independent"]
+                    }
+                  }
+                },
+                "TreeSorting": {
+                  "type": "object",
+                  "required": ["Criteria"],
+                  "properties": {
+                    "Criteria": {
+                    },
+                    "Order": {
+                      "enum": ["asc", "desc"]
+                    },
+                    "Padding": {
+                      "type": "number"
+                    }
+                  }
+                },
+                "SubtreeSorting": {
+                  "type": "object",
+                  "required": ["Criteria"],
+                  "properties": {
+                    "Criteria": {
+                    },
+                    "Order": {
+                      "enum": ["asc", "desc"]
+                    },
+                    "Padding": {
+                      "type": "number"
+                    }
+                  }
+                }
+              },
+              "required": ["Relation", "TreeSorting", "SubtreeSorting"]
+            },
+            "Y": {
+              "type": "object",
+              "properties": {
+                "Relation": {
+                  "type": "object",
+                  "required": ["Category"],
+                  "properties": {
+                    "Category": {
+                      "enum": ["separation", "adjacency", "overlapping", "inclusion", "independent"]
+                    }
+                  }
+                },
+                "TreeSorting": {
+                  "type": "object",
+                  "required": ["Criteria"],
+                  "properties": {
+                    "Criteria": {
+                    },
+                    "Order": {
+                      "enum": ["asc", "desc"]
+                    },
+                    "Padding": {
+                      "type": "number"
+                    }
+                  }
+                },
+                "SubtreeSorting": {
+                  "type": "object",
+                  "required": ["Criteria"],
+                  "properties": {
+                    "Criteria": {
+                    },
+                    "Order": {
+                      "enum": ["asc", "desc"]
+                    },
+                    "Padding": {
+                      "type": "number"
+                    }
+                  }
+                }
+              },
+              "required": ["Relation", "TreeSorting", "SubtreeSorting"]
+            },
+            "Z": {
+              "type": "object",
+              "properties": {
+                "Relation": {
+                  "type": "object",
+                  "required": ["Category"],
+                  "properties": {
+                    "Category": {
+                      "enum": ["separation", "adjacency", "overlapping", "inclusion", "independent"]
+                    }
+                  }
+                },
+                "TreeSorting": {
+                  "type": "object",
+                  "required": ["Criteria"],
+                  "properties": {
+                    "Criteria": {
+                    },
+                    "Order": {
+                      "enum": ["asc", "desc"]
+                    },
+                    "Padding": {
+                      "type": "number"
+                    }
+                  }
+                },
+                "SubtreeSorting": {
+                  "type": "object",
+                  "required": ["Criteria"],
+                  "properties": {
+                    "Criteria": {
+                    },
+                    "Order": {
+                      "enum": ["asc", "desc"]
+                    },
+                    "Padding": {
+                      "type": "number"
+                    }
+                  }
+                }
+              },
+              "required": ["Relation", "TreeSorting", "SubtreeSorting"]
+            }
+          }
+        },
+        "NonLinear": {
+          "enum": ["Packing", "Force", "Voronoi", "Squarify"]
+        }, 
+        "LayoutMode": {
+          "enum": ["top-down", "bottom-up"]                  
+        }
+      } 
+    },
+    "CoordinateSystem": {
+      "type": "object",
+      "properties": {
+        "Category": {
+          "enum": ["polar", "cartesian"]
+        }
+      }
+    }
+  },
+  "required": ["Element", "Layout", "CoordinateSystem"] 
+}

@@ -1,0 +1,49 @@
+{
+  "Element": {
+    "Mark": "rect / circle / other glyph",
+    "Width": "adaptive / map-value",
+    "Height": "adaptive / map-value",
+    "Link": "..options",
+    "Color": "..options"
+  },
+  "CoordinateSystem": "cartesian / polar",
+  "Layout": {
+    "Category": "linear / non-linear",
+    "X": {
+      "SUBTREES": {
+        "Relation": "include / juxtapose / included",
+        "Alignment": "left / center / right / ...",
+        "Padding": "Number: 0~100, % of total width",
+        "Margin": "Number: -100~100, % of total width",
+        "Position": "right / left / top / bottom",
+      },
+      "siblings": {
+        "Relation": "flatten / align",
+        "Sorting-order": "asc or desc",
+        "Sorting-criteria": "index / map-value",
+        "Margin": "Number: -100~100, % of subtrees' width",
+        "Alignment": "Number: 0~100, % of subtrees' width",
+      },
+    },
+    "Y": {
+      "SUBTREES": {
+        "Relation": "include / juxtapose / included",
+        "Alignment": "left / center / right / ...",
+        "Padding": "Number: 0~100, % of total width",
+        "Margin": "Number: -100~100, % of total width",
+        "Position": "right / left / top / bottom",
+      },
+      "siblings": {
+        "Relation": "flatten / align",
+        "Sorting-order": "asc or desc",
+        "Sorting-criteria": "index / map-value",
+        "Margin": "Number: -100~100, % of subtrees' width",
+        "Alignment": "Number: 0~100, % of subtrees' width",
+      },
+    },
+    "SubtreeHeight": "adaptive / map-value",
+    "SubtreeWidth": "adaptive / map-value",
+    "Mode": "bottom-up / top-down",
+    "NonLinear": "Packing / Force / Voronoi / Squarify"
+  }
+}

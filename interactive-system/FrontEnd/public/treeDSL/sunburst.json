@@ -1,0 +1,36 @@
+{
+    "Name": "Sunburst",
+    "Element": {
+        "Node": "rectangle",
+        "Color": "depth",
+        "Link": "hidden",
+        "Label": "hidden"
+    },
+    "CoordinateSystem": {
+        "Category": "polar"
+    },
+    "Layout": {
+        "Category": "AxisIndependent",
+        "X": {
+            "Root": {
+                "Relation": "include",
+                "Padding": [0, 0]
+
+            },
+            "Subtree": {
+                "Relation": "flatten",
+                "Margin": 0
+            }
+        },
+        "Y": {
+            "Root": {
+                "Relation": "juxtapose",
+                "Margin": 0
+            },
+            "Subtree": {
+                "Relation": "align"
+            }
+        },
+        "Mode": "top-down"
+    }
+}

@@ -1,0 +1,128 @@
+{
+  "Accordion Drawing": [
+    56098,
+    56103
+  ],
+  "Adaptive tree": [
+    272128,
+    272134,
+    275364
+  ],
+  "Aggregate Tree Map": [
+    223042, 223048
+  ],
+  "Balloon Drawing": [
+    296946, 303596
+  ],
+  "barcodeTree": [
+    278598, 278604, 281828, 281834
+  ],
+  "Beam Tree": [
+    81328,
+    81329,
+    82408,
+    82409
+  ],
+  "Cascaded Pietree": [
+    223042, 223048
+  ],
+  "Cascaded Treemaps": [
+    81328,
+    81329,
+    82408,
+    82409
+  ],
+  "Deep Tree": [
+    223736, 223741
+  ],
+  "diamond Tree": [
+    223066, 223067, 223068, 223069, 223090, 223091, 223093
+  ],
+  "Ellimaps": [
+    81330,
+    81331,
+    82410,
+    82411
+  ],
+  "fancharts": [
+    87138, 90362, 90368
+  ],
+  "H-Tree": [],
+  "Hierarchical Sector Chart": [
+    87132, 87138, 90362, 90368
+  ],
+  "Indentation": [
+    10248, 10249, 309458, 309459
+  ],
+  "Indented Pixel Tree Plot": [
+    290558,
+    290564
+  ],
+  "nested pie tree": [
+    82173
+  ],
+  "outside-in hierarchy": [
+    223528, 223534
+  ],
+  "planet": [
+    22520, 55400
+  ],
+  "radial tree in Bunches1": [
+   
+  ],
+  "radial tree in Bunches2": [
+    
+  ],
+  "Spiral Tree Layout": [
+    292344
+  ],
+  "sunburst down charts": [
+    85564,
+    85570,
+    85956,
+    88794,
+    88800
+  ],
+  "ThreadArc": [
+    278591, 278597, 281821, 281827
+  ],
+  "Treemap slice": [
+    81328,
+    81329,
+    82408,
+    82409
+  ],
+  "variational circular treemap": [
+    81168, 81169, 81300, 81301, 82380
+  ],
+  "visibility-improved treemap": [
+    81330,
+    81331,
+    82410,
+    82411
+  ],
+  "visibility-improved treemap": [
+    81330,
+    81331,
+    82410,
+    82411
+  ],
+  "node-link diagram": [
+    220526
+  ],
+  "Cheops": [
+    91136, 87874
+  ],
+  "slice treemap": [
+    312699
+  ],
+  "Timeline Tree": [
+    13455
+  ],
+  "radial tree": [
+    87371
+  ],
+  "circular polegentic tree": [
+    25558
+  ]
+}

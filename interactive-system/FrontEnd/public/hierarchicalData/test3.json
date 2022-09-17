@@ -1,0 +1,24 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "vis",
+   "children": [
+    {
+     "name": "events",
+     "children": [
+      { "name": "DataEvent",
+        "children": [{"name": "Data1Event", "size": 800}]
+      },
+      {"name": "SelectionEvent",
+         "children": [{"name": "Data2Event", "size": 525}]
+      },
+      {"name": "VisualizationEvent", "size": 825}
+     ]
+    }
+   ]
+  },
+  {"name": "SelectionEvent", "size": 600},
+  {"name": "VisualizationEvent", "size": 250}
+ ]
+}

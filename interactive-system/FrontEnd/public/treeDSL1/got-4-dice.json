@@ -1,0 +1,55 @@
+{
+    "title": "customize",
+    "Element": {
+      "Node": "rect",
+      "RootWidth": "adaptive",
+      "RootHeight": "adaptive",
+      "Link": "hidden",
+      "Color": "depth",
+      "Thickness": "adaptive",
+      "Label": false
+    },
+    "CoordinateSystem": {
+      "Category": "cartesian",
+      "Theta": "1"
+    },
+    "Layout": {
+      "Category": "AxisIndependent",
+      "Mode": "top-down",
+      "X": {
+        "Root": {
+          "Relation": "included",
+          "Alignment": "center",
+          "Padding": "",
+          "Margin": "",
+          "Position": ""
+        },
+        "Siblings": {
+          "Relation": "align",
+          "SortingOrder": "",
+          "SortingCriteria": "",
+          "Margin": "",
+          "Alignment": "center"
+        }
+      },
+      "Y": {
+        "Root": {
+          "Relation": "include",
+          "Alignment": "",
+          "Padding": 0.15,
+          "Margin": "",
+          "Position": ""
+        },
+        "Siblings": {
+          "Relation": "flatten",
+          "SortingOrder": "",
+          "SortingCriteria": "",
+          "Margin": 0.2,
+          "Alignment": ""
+        }
+      },
+      "SubtreeWidth": "rdepth",
+      "SubtreeHeight": "value",
+      "AxisDependent": ""
+    }
+  }

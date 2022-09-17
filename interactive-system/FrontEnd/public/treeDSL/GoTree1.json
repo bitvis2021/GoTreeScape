@@ -1,0 +1,35 @@
+{
+    "Title": "GoT-1",
+    "Element": {
+        "Node": "rectangle",
+        "Link": "hidden",
+        "Color": "adaptive"
+    },
+    "CoordinateSystem": {
+        "Category": "cartesian"
+    },
+    "Layout": {
+        "Category": "AxisIndependent",
+        "Mode": "bottom-up",
+        "X": {
+            "Root": {
+                "Relation": "juxtapose",
+                "Margin": 0.01
+            },
+            "Subtree": {
+                "Relation": "flatten",
+                "Margin": 0.05
+            }
+        },
+        "Y": {
+            "Root": {
+                "Relation": "include",
+                "Padding": 0.01
+            },
+            "Subtree": {
+                "Relation": "flatten",
+                "Margin": 0.05
+            }
+        }
+    }
+}

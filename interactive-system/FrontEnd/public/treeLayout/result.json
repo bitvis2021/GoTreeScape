@@ -1,0 +1,131 @@
+[
+   {
+      "width": 106.3,
+      "height": 3.2,
+      "root": {
+         "x": 0,
+         "y": 0,
+         "width": 106.3,
+         "height": 1
+      },
+      "id": 0,
+      "subtreeLayout": [
+         {
+            "x": 0.05,
+            "y": 1.1000000000000003,
+            "width": 62.1,
+            "height": 2.1,
+            "id": 1
+         },
+         {
+            "x": 64.15,
+            "y": 1.1000000000000003,
+            "width": 42.1,
+            "height": 2.1,
+            "id": 2
+         }
+      ]
+   },
+   {
+      "width": 62.1,
+      "height": 2.1,
+      "root": {
+         "x": 0,
+         "y": 0,
+         "width": 62.1,
+         "height": 1
+      },
+      "id": 1,
+      "subtreeLayout": [
+         {
+            "x": 0.05,
+            "y": 1.1,
+            "width": 12,
+            "height": 1,
+            "id": 3
+         },
+         {
+            "x": 14.05,
+            "y": 1.1,
+            "width": 48,
+            "height": 1,
+            "id": 4
+         }
+      ]
+   },
+   {
+      "width": 42.1,
+      "height": 2.1,
+      "root": {
+         "x": 0,
+         "y": 0,
+         "width": 42.1,
+         "height": 1
+      },
+      "id": 2,
+      "subtreeLayout": [
+         {
+            "x": 0.05,
+            "y": 1.1,
+            "width": 10,
+            "height": 1,
+            "id": 5
+         },
+         {
+            "x": 12.05,
+            "y": 1.1,
+            "width": 30,
+            "height": 1,
+            "id": 6
+         }
+      ]
+   },
+   {
+      "width": 12,
+      "height": 1,
+      "root": {
+         "x": 0,
+         "y": 0,
+         "width": 12,
+         "height": 1
+      },
+      "id": 3,
+      "subtreeLayout": []
+   },
+   {
+      "width": 48,
+      "height": 1,
+      "root": {
+         "x": 0,
+         "y": 0,
+         "width": 48,
+         "height": 1
+      },
+      "id": 4,
+      "subtreeLayout": []
+   },
+   {
+      "width": 10,
+      "height": 1,
+      "root": {
+         "x": 0,
+         "y": 0,
+         "width": 10,
+         "height": 1
+      },
+      "id": 5,
+      "subtreeLayout": []
+   },
+   {
+      "width": 30,
+      "height": 1,
+      "root": {
+         "x": 0,
+         "y": 0,
+         "width": 30,
+         "height": 1
+      },
+      "id": 6,
+      "subtreeLayout": []
+   }
+]

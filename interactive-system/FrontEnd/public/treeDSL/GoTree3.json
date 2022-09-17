@@ -1,0 +1,40 @@
+{
+    "Element": {
+      "Node": "rectangle",
+      "RootWidth": "adaptive",
+      "RootHeight": "adaptive",
+      "Link": "straight",
+      "Color": "adaptive"
+    },
+    "CoordinateSystem": {
+      "Category": "cartesian"
+    },
+    "Layout": {
+      "Category": "AxisIndependent",
+      "Mode": "bottom-up",
+      "X": {
+          "Root": {
+            "Relation": "included",
+            "Alignment": "left"
+          },
+          "Subtree": {
+            "Relation": "align",
+            "Alignment": "left"
+          }
+      },
+      "Y": {
+          "Root": {
+            "Relation": "juxtapose",
+            "Margin": "0.1r",
+            "Position": "top"
+          },
+          "Subtree": {
+            "Relation": "flatten",
+            "SortingOrder": "asc",
+            "SortingCriteria": "index",
+            "Margin": "0.1r"
+          }
+      }
+    }
+  }
+  

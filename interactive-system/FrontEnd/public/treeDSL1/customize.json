@@ -1,0 +1,10 @@
+{
+  "Title": "customize",
+  "Element": {
+    "Node": "ellipse",
+    "Link": "hidden", 
+    "Color": "depth",
+    "Width": "value",
+    "Height": "value"
+  }
+}

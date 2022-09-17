@@ -1,0 +1,40 @@
+{
+  "Element": {
+    "Node": "rectangle",
+    "RootWidth": "rdepth",
+    "Color": "depth",
+    "Link": "hidden",
+    "Thickness": "static",
+    "StaticThickness": 2,
+    "LabelAnchor": "middle"
+  },
+  "CoordinateSystem": {
+    "Category": "cartesian",
+    "PolarCenterPos": "top",
+    "PolarCenterType": "root"
+  },
+  "Layout": {
+    "Category": "AxisIndependent",
+    "Mode": "bottom-up",
+    "X": {
+      "Root": {
+        "Relation": "within",
+        "Alignment": "left"
+      },
+      "Subtree": {
+        "Relation": "align"
+      }
+    },
+    "Y": {
+      "Root": {
+        "Relation": "juxtapose"
+      },
+      "Subtree": {
+        "Relation": "flatten"
+      }
+    },
+    "SubtreeWidth": "adaptive",
+    "SubtreeHeight": "adaptive"
+  },
+  "Name": "untitled1"
+}

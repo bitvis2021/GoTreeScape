@@ -1,0 +1,47 @@
+{
+    "Title": "Separation-Separation",
+    "Element": {
+      "Node": "rect",
+      "Link": "straight", 
+      "Color": "depth",
+      "Width": "adaptive",
+      "Height": "adaptive"
+    },
+    "Layout": {
+      "Category": "linear", 
+      "Linear": {
+        "X": {
+          "Relation": {
+            "Category": "separation",
+            "Padding": 0.1
+          },
+          "TreeSorting": {
+            "Criteria": "depth",
+            "Order": "asc"
+          },
+          "SubtreeSorting":  {
+            "Criteria": "index",
+            "Order": "asc",
+            "Padding": 0.1
+          }
+        },
+        "Y": {
+          "Relation": {
+            "Category": "separation",
+            "Padding": 0.3
+          },
+          "TreeSorting": {
+            "Criteria": "depth",
+            "Order": "asc"
+          },
+          "SubtreeSorting": {
+            "Criteria": "null"
+          }
+        }
+      }, 
+      "LayoutMode": "bottom-up"
+    },
+    "CoordinateSystem": {
+      "Category": "cartesian"
+    }
+  }

@@ -1,0 +1,35 @@
+{
+ "node": "rect",
+ "link": "hidden",
+ "nodeAttribute": {
+    "x": 0,
+    "y": 0,
+    "width": "value",
+    "height": "CONSTANT"
+ },
+ "coordinateSystemParaObj": {
+    "coordinateSystem": "cartesian"
+ },
+ "layout": {
+    "horizontal": {
+      "RelationEncoding": "inclusion",
+      "SortingCriteria": "index",
+      "SortingScope": "sibling",
+      "SortingMode": "vertical",
+      "LayoutMode": "top-down",
+      "Parameters": {
+        "padding": 0
+      }
+    },
+   "vertical": {
+      "RelationEncoding": "adjacency",
+      "SortingCriteria": "depth",
+      "SortingScope": "global",
+      "SortingMode": "horizontal",
+      "LayoutMode": "top-down",
+      "Parameters": {
+        "padding": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "left": {
+    "inner_leaf": [
+      703
+    ]
+  },
+  "right": {
+    "left": {
+      "inner_leaf": [
+        708
+      ]
+    },
+    "right": {
+      "inner_leaf": [
+        795
+      ]
+    },
+    "inner_leaf": [
+      795,
+      708
+    ]
+  },
+  "inner_leaf": [
+    795,
+    708,
+    703
+  ]
+}

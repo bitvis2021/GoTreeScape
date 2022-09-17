@@ -1,0 +1,36 @@
+{
+  "Element": {
+    "Node": "rect",
+    "Color": "depth",
+    "Link": "hidden",
+    "Label": false
+  },
+  "CoordinateSystem": {
+    "Category": "cartesian"
+  },
+  "Layout": {
+    "Category": "AxisIndependent",
+    "X": {
+      "Root": {
+        "Relation": "include",
+        "Padding": 0
+      },
+      "Siblings": {
+        "Relation": "flatten",
+        "Margin": 0
+      }
+    },
+    "Y": {
+      "Root": {
+        "Relation": "juxtapose",
+        "Margin": 0
+      },
+      "Siblings": {
+        "Relation": "align",
+        "Alignment": "top"
+      }
+    },
+    "SubtreeWidth": "value",
+    "Mode": "bottom-up"
+  }
+}

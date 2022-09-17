@@ -1,0 +1,43 @@
+{
+  "Name": "ArcTree",
+  "Element": {
+    "Node": "circle",
+    "Link": "arccurve",
+    "Thickness": "static",
+    "StaticThickness": 2,
+    "Color": "depth",
+    "ColorSchema": "option1",
+    "LabelAnchor": "middle",
+    "LinkWidth": "static",
+    "LinkDisplay": "bottom"
+  },
+  "CoordinateSystem": {
+    "Category": "cartesian",
+    "PolarCenterPos": "top",
+    "PolarCenterType": "root"
+  },
+  "Layout": {
+    "Category": "AxisIndependent",
+    "Mode": "bottom-up",
+    "X": {
+      "Root": {
+        "Relation": "juxtapose",
+        "Margin": "0.05"
+      },
+      "Subtree": {
+        "Relation": "flatten",
+        "Margin": "0.1"
+      }
+    },
+    "Y": {
+      "Root": {
+        "Relation": "include"
+      },
+      "Subtree": {
+        "Relation": "align"
+      }
+    },
+    "SubtreeWidth": "adaptive",
+    "SubtreeHeight": "adaptive"
+  }
+}

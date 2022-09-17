@@ -1,0 +1,35 @@
+{
+    "Element": {
+      "Node": "rectangle",
+      "Link": "hidden",
+      "Color": "depth"
+    },
+    "CoordinateSystem": {
+        "Category": "cartesian"
+    },
+    "Layout": {
+      "Category": "AxisIndependent",
+      "Mode": "bottom-up",
+      "X": {
+          "Root": {
+            "Relation": "juxtapose",
+            "Margin": "0.05r"
+          },
+          "Subtree": {
+            "Relation": "flatten",
+            "Margin": 0.1
+          }
+      },
+      "Y": {
+          "Root": {
+            "Relation": "juxtapose",
+            "Margin": "0.05r"
+          },
+          "Subtree": {
+            "Relation": "align",
+            "Alignment": "top"
+          }
+      }
+    }
+  }
+  

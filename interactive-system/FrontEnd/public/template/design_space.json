@@ -1,0 +1,12 @@
+{
+	"templates": [
+		{
+			"query": {
+				"attribute": "depth",
+				"criteria": 1
+			},
+			"recursive": true,
+			"dslname": "99"
+		}
+	]
+}

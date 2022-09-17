@@ -1,0 +1,37 @@
+{
+    "Name": "CurveTree",
+    "Element": {
+        "Node": "hidden",
+        "Color": "depth",
+        "Link": "curve",
+        "Label": "hidden",
+        "LinkWidth": "depth",
+        "LinkWidthRatio": 1
+    },
+    "CoordinateSystem": {
+        "Category": "cartesian"
+    },
+    "Layout": {
+        "Category": "AxisIndependent",
+        "X": {
+            "Root": {
+                "Relation": "include",
+                "Padding": [0, 0]
+            },
+            "Subtree": {
+                "Relation": "flatten",
+                "Margin": 0
+            }
+        },
+        "Y": {
+            "Root": {
+                "Relation": "juxtapose",
+                "Margin": "0r"
+            },
+            "Subtree": {
+                "Relation": "align"
+            }
+        },
+        "Mode": "top-down"
+    }
+}

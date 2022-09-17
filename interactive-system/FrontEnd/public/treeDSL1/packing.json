@@ -1,0 +1,18 @@
+{
+  "Title": "packing",
+  "Element": {
+    "Node": "ellipse",
+    "Link": "hidden", 
+    "Color": "depth",
+    "Width": "value",
+    "Height": "value"
+  },
+  "Layout": {
+    "Category": "nonlinear", 
+    "NonLinear": "Packing",
+    "LayoutMode": "top-down"
+  },
+  "CoordinateSystem": {
+    "Category": "cartesian"
+  }
+}

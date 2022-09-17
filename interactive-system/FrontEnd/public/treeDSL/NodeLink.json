@@ -1,0 +1,36 @@
+{
+    "Name": "NodeLink",
+    "Element": {
+        "Node": "circle",
+        "Link": "straight",
+        "LinkWidth": "adaptive",
+        "LinkWidthRatio": 1,
+        "Color": "depth"
+    },
+    "CoordinateSystem": {
+        "Category": "cartesian"
+    },
+    "Layout": {
+        "Category": "AxisIndependent",
+        "Mode": "bottom-up",
+        "X": {
+            "Root": {
+                "Relation": "within"
+            },
+            "Subtree": {
+                "Relation": "flatten",
+                "Margin": "0.3w"
+            }
+        },
+        "Y": {
+            "Root": {
+                "Relation": "juxtapose",
+                "Margin": 0.2
+            },
+            "Subtree": {
+                "Relation": "align",
+                "Alignment": "top"
+            }
+        }
+    }
+}

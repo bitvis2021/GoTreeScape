@@ -1,0 +1,3598 @@
+        {
+            "provinceName": "中国",
+            "children": [
+                {
+                    "provinceName": "湖北省",
+                    "provinceShortName": "湖北",
+                    "confirmedCount": 3554,
+                    "suspectedCount": 0,
+                    "curedCount": 84,
+                    "deadCount": 125,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "武汉",
+                            "confirmedCount": 1905,
+                            "suspectedCount": 0,
+                            "curedCount": 51,
+                            "deadCount": 104,
+                            "value": 7.552237287560802,
+                            "name": "wuhan"
+                        },
+                        {
+                            "cityName": "黄冈",
+                            "confirmedCount": 324,
+                            "suspectedCount": 0,
+                            "curedCount": 2,
+                            "deadCount": 5,
+                            "value": 5.780743515792329,
+                            "name": "huanggang"
+                        },
+                        {
+                            "cityName": "孝感",
+                            "confirmedCount": 274,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 3,
+                            "value": 5.6131281063880705,
+                            "name": "xiaogan"
+                        },
+                        {
+                            "cityName": "荆门",
+                            "confirmedCount": 142,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 4,
+                            "value": 4.955827057601261,
+                            "name": "jingmen"
+                        },
+                        {
+                            "cityName": "襄阳",
+                            "confirmedCount": 131,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 4.875197323201151,
+                            "name": "xiangyang"
+                        },
+                        {
+                            "cityName": "随州",
+                            "confirmedCount": 116,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 4.7535901911063645,
+                            "name": "suizhou"
+                        },
+                        {
+                            "cityName": "咸宁",
+                            "confirmedCount": 112,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 4.718498871295094,
+                            "name": "xianning"
+                        },
+                        {
+                            "cityName": "荆州",
+                            "confirmedCount": 101,
+                            "suspectedCount": 0,
+                            "curedCount": 1,
+                            "deadCount": 2,
+                            "value": 4.61512051684126,
+                            "name": "jingzhou"
+                        },
+                        {
+                            "cityName": "十堰",
+                            "confirmedCount": 88,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 4.477336814478207,
+                            "name": "shiyan"
+                        },
+                        {
+                            "cityName": "黄石",
+                            "confirmedCount": 86,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 1,
+                            "value": 4.454347296253507,
+                            "name": "huangshi"
+                        },
+                        {
+                            "cityName": "鄂州",
+                            "confirmedCount": 84,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 1,
+                            "value": 4.430816798843313,
+                            "name": "ezhou"
+                        },
+                        {
+                            "cityName": "宜昌",
+                            "confirmedCount": 63,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 1,
+                            "value": 4.143134726391533,
+                            "name": "yichang"
+                        },
+                        {
+                            "cityName": "恩施州",
+                            "confirmedCount": 51,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 3.9318256327243257,
+                            "name": "enshizhou"
+                        },
+                        {
+                            "cityName": "天门",
+                            "confirmedCount": 34,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 3,
+                            "value": 3.5263605246161616,
+                            "name": "tianmen"
+                        },
+                        {
+                            "cityName": "仙桃",
+                            "confirmedCount": 32,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 3.4657359027997265,
+                            "name": "xiantao"
+                        },
+                        {
+                            "cityName": "潜江",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 1,
+                            "value": 2.0794415416798357,
+                            "name": "qianjiang"
+                        },
+                        {
+                            "cityName": "神农架林区",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "shennongjialinqu"
+                        }
+                    ],
+                    "value": 74.47195439624105,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "广东省",
+                    "provinceShortName": "广东",
+                    "confirmedCount": 272,
+                    "suspectedCount": 0,
+                    "curedCount": 5,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "深圳",
+                            "confirmedCount": 80,
+                            "suspectedCount": 0,
+                            "curedCount": 4,
+                            "deadCount": 0,
+                            "value": 4.382026634673881,
+                            "name": "shenzhen"
+                        },
+                        {
+                            "cityName": "广州",
+                            "confirmedCount": 63,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 4.143134726391533,
+                            "name": "guangzhou"
+                        },
+                        {
+                            "cityName": "佛山",
+                            "confirmedCount": 21,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 3.044522437723423,
+                            "name": "foshan"
+                        },
+                        {
+                            "cityName": "珠海",
+                            "confirmedCount": 18,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.8903717578961645,
+                            "name": "zhuhai"
+                        },
+                        {
+                            "cityName": "中山",
+                            "confirmedCount": 13,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.5649493574615367,
+                            "name": "zhongshan"
+                        },
+                        {
+                            "cityName": "惠州",
+                            "confirmedCount": 12,
+                            "suspectedCount": 0,
+                            "curedCount": 1,
+                            "deadCount": 0,
+                            "value": 2.4849066497880004,
+                            "name": "huizhou"
+                        },
+                        {
+                            "cityName": "阳江",
+                            "confirmedCount": 10,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.302585092994046,
+                            "name": "yangjiang"
+                        },
+                        {
+                            "cityName": "湛江",
+                            "confirmedCount": 9,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.1972245773362196,
+                            "name": "zhanjiang"
+                        },
+                        {
+                            "cityName": "汕头",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.0794415416798357,
+                            "name": "shantou"
+                        },
+                        {
+                            "cityName": "东莞",
+                            "confirmedCount": 7,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.9459101490553132,
+                            "name": "dongguan"
+                        },
+                        {
+                            "cityName": "清远",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "qingyuan"
+                        },
+                        {
+                            "cityName": "揭阳",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "jieyang"
+                        },
+                        {
+                            "cityName": "肇庆",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "zhaoqing"
+                        },
+                        {
+                            "cityName": "韶关",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "shaoguan"
+                        },
+                        {
+                            "cityName": "梅州",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "meizhou"
+                        },
+                        {
+                            "cityName": "茂名",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "maoming"
+                        },
+                        {
+                            "cityName": "汕尾",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "shanwei"
+                        },
+                        {
+                            "cityName": "河源",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "heyuan"
+                        },
+                        {
+                            "cityName": "江门",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "jiangmen"
+                        }
+                    ],
+                    "value": 37.099230786798046,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "浙江省",
+                    "provinceShortName": "浙江",
+                    "confirmedCount": 296,
+                    "suspectedCount": 0,
+                    "curedCount": 3,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "温州",
+                            "confirmedCount": 114,
+                            "suspectedCount": 0,
+                            "curedCount": 3,
+                            "deadCount": 0,
+                            "value": 4.736198448394496,
+                            "name": "wenzhou"
+                        },
+                        {
+                            "cityName": "杭州",
+                            "confirmedCount": 51,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 3.9318256327243257,
+                            "name": "hangzhou"
+                        },
+                        {
+                            "cityName": "台州",
+                            "confirmedCount": 40,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 3.6888794541139363,
+                            "name": "taizhou"
+                        },
+                        {
+                            "cityName": "宁波",
+                            "confirmedCount": 20,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.995732273553991,
+                            "name": "ningbo"
+                        },
+                        {
+                            "cityName": "绍兴",
+                            "confirmedCount": 19,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.9444389791664403,
+                            "name": "shaoxing"
+                        },
+                        {
+                            "cityName": "嘉兴",
+                            "confirmedCount": 14,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.6390573296152584,
+                            "name": "jiaxing"
+                        },
+                        {
+                            "cityName": "金华",
+                            "confirmedCount": 13,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.5649493574615367,
+                            "name": "jinhua"
+                        },
+                        {
+                            "cityName": "衢州",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.0794415416798357,
+                            "name": "quzhou"
+                        },
+                        {
+                            "cityName": "舟山",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "zhoushan"
+                        },
+                        {
+                            "cityName": "丽水",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "lishui"
+                        },
+                        {
+                            "cityName": "湖州",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "huzhou"
+                        }
+                    ],
+                    "value": 30.773479867600024,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "北京市",
+                    "provinceShortName": "北京",
+                    "confirmedCount": 102,
+                    "suspectedCount": 0,
+                    "curedCount": 4,
+                    "deadCount": 1,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "海淀",
+                            "confirmedCount": 23,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 3.1354942159291497,
+                            "name": "haidian"
+                        },
+                        {
+                            "cityName": "朝阳",
+                            "confirmedCount": 19,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.9444389791664403,
+                            "name": "zhaoyang"
+                        },
+                        {
+                            "cityName": "外地来京人员",
+                            "confirmedCount": 11,
+                            "suspectedCount": 0,
+                            "curedCount": 2,
+                            "deadCount": 0,
+                            "value": 2.3978952727983707,
+                            "name": "waidilaijingrenyuan"
+                        },
+                        {
+                            "cityName": "大兴",
+                            "confirmedCount": 10,
+                            "suspectedCount": 0,
+                            "curedCount": 2,
+                            "deadCount": 0,
+                            "value": 2.302585092994046,
+                            "name": "daxing"
+                        },
+                        {
+                            "cityName": "西城",
+                            "confirmedCount": 9,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.1972245773362196,
+                            "name": "xicheng"
+                        },
+                        {
+                            "cityName": "昌平",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.0794415416798357,
+                            "name": "changping"
+                        },
+                        {
+                            "cityName": "丰台",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.0794415416798357,
+                            "name": "fengtai"
+                        },
+                        {
+                            "cityName": "通州",
+                            "confirmedCount": 7,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.9459101490553132,
+                            "name": "tongzhou"
+                        },
+                        {
+                            "cityName": "石景山",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "shijingshan"
+                        },
+                        {
+                            "cityName": "顺义",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "shunyi"
+                        },
+                        {
+                            "cityName": "东城",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "dongcheng"
+                        },
+                        {
+                            "cityName": "门头沟",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "mentougou"
+                        }
+                    ],
+                    "value": 21.16187291231904,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "上海市",
+                    "provinceShortName": "上海",
+                    "confirmedCount": 96,
+                    "suspectedCount": 0,
+                    "curedCount": 5,
+                    "deadCount": 1,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "外地来沪人员",
+                            "confirmedCount": 47,
+                            "suspectedCount": 0,
+                            "curedCount": 5,
+                            "deadCount": 1,
+                            "value": 3.8501476017100584,
+                            "name": "waidilaihurenyuan"
+                        },
+                        {
+                            "cityName": "浦东",
+                            "confirmedCount": 12,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.4849066497880004,
+                            "name": "pudong"
+                        },
+                        {
+                            "cityName": "静安",
+                            "confirmedCount": 7,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.9459101490553132,
+                            "name": "jingan"
+                        },
+                        {
+                            "cityName": "长宁",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "changning"
+                        },
+                        {
+                            "cityName": "徐汇",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "xuhui"
+                        },
+                        {
+                            "cityName": "奉贤",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "fengxian"
+                        },
+                        {
+                            "cityName": "黄浦",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "huangpu"
+                        },
+                        {
+                            "cityName": "虹口",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "hongkou"
+                        },
+                        {
+                            "cityName": "闵行",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "minxing"
+                        },
+                        {
+                            "cityName": "青浦",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "qingpu"
+                        },
+                        {
+                            "cityName": "宝山",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "baoshan"
+                        },
+                        {
+                            "cityName": "嘉定",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "jiading"
+                        },
+                        {
+                            "cityName": "松江",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "songjiang"
+                        },
+                        {
+                            "cityName": "金山",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "jinshan"
+                        }
+                    ],
+                    "value": 17.673626329323504,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "湖南省",
+                    "provinceShortName": "湖南",
+                    "confirmedCount": 221,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "长沙",
+                            "confirmedCount": 46,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 3.828641396489095,
+                            "name": "changsha"
+                        },
+                        {
+                            "cityName": "岳阳",
+                            "confirmedCount": 26,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 3.258096538021482,
+                            "name": "yueyang"
+                        },
+                        {
+                            "cityName": "常德",
+                            "confirmedCount": 26,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 3.258096538021482,
+                            "name": "changde"
+                        },
+                        {
+                            "cityName": "邵阳",
+                            "confirmedCount": 19,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.9444389791664403,
+                            "name": "shaoyang"
+                        },
+                        {
+                            "cityName": "怀化",
+                            "confirmedCount": 18,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.8903717578961645,
+                            "name": "huaihua"
+                        },
+                        {
+                            "cityName": "衡阳",
+                            "confirmedCount": 17,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.833213344056216,
+                            "name": "hengyang"
+                        },
+                        {
+                            "cityName": "益阳",
+                            "confirmedCount": 14,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.6390573296152584,
+                            "name": "yiyang"
+                        },
+                        {
+                            "cityName": "株洲",
+                            "confirmedCount": 13,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.5649493574615367,
+                            "name": "zhuzhou"
+                        },
+                        {
+                            "cityName": "娄底",
+                            "confirmedCount": 13,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.5649493574615367,
+                            "name": "loudi"
+                        },
+                        {
+                            "cityName": "永州",
+                            "confirmedCount": 11,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.3978952727983707,
+                            "name": "yongzhou"
+                        },
+                        {
+                            "cityName": "湘潭",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.0794415416798357,
+                            "name": "xiangtan"
+                        },
+                        {
+                            "cityName": "郴州",
+                            "confirmedCount": 7,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.9459101490553132,
+                            "name": "chenzhou"
+                        },
+                        {
+                            "cityName": "湘西自治州",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "xiangxizizhizhou"
+                        }
+                    ],
+                    "value": 34.30367385039084,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "安徽省",
+                    "provinceShortName": "安徽",
+                    "confirmedCount": 152,
+                    "suspectedCount": 0,
+                    "curedCount": 2,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "合肥",
+                            "confirmedCount": 29,
+                            "suspectedCount": 0,
+                            "curedCount": 1,
+                            "deadCount": 0,
+                            "value": 3.367295829986474,
+                            "name": "hefei"
+                        },
+                        {
+                            "cityName": "阜阳",
+                            "confirmedCount": 23,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 3.1354942159291497,
+                            "name": "fuyang"
+                        },
+                        {
+                            "cityName": "亳州",
+                            "confirmedCount": 15,
+                            "suspectedCount": 0,
+                            "curedCount": 1,
+                            "deadCount": 0,
+                            "value": 2.70805020110221,
+                            "name": "bozhou"
+                        },
+                        {
+                            "cityName": "安庆",
+                            "confirmedCount": 14,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.6390573296152584,
+                            "name": "anqing"
+                        },
+                        {
+                            "cityName": "马鞍山",
+                            "confirmedCount": 11,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.3978952727983707,
+                            "name": "maanshan"
+                        },
+                        {
+                            "cityName": "芜湖",
+                            "confirmedCount": 11,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.3978952727983707,
+                            "name": "wuhu"
+                        },
+                        {
+                            "cityName": "铜陵",
+                            "confirmedCount": 9,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.1972245773362196,
+                            "name": "tongling"
+                        },
+                        {
+                            "cityName": "宿州",
+                            "confirmedCount": 9,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.1972245773362196,
+                            "name": "suzhou"
+                        },
+                        {
+                            "cityName": "黄山",
+                            "confirmedCount": 7,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.9459101490553132,
+                            "name": "huangshan"
+                        },
+                        {
+                            "cityName": "六安",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "luan"
+                        },
+                        {
+                            "cityName": "滁州",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "chuzhou"
+                        },
+                        {
+                            "cityName": "宿松",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "susong"
+                        },
+                        {
+                            "cityName": "蚌埠",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "bengbu"
+                        },
+                        {
+                            "cityName": "宣城",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "xuancheng"
+                        },
+                        {
+                            "cityName": "淮北",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "huaibei"
+                        },
+                        {
+                            "cityName": "淮南",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "huainan"
+                        },
+                        {
+                            "cityName": "池州",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "chizhou"
+                        }
+                    ],
+                    "value": 30.72844944777336,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "重庆市",
+                    "provinceShortName": "重庆",
+                    "confirmedCount": 147,
+                    "suspectedCount": 0,
+                    "curedCount": 1,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "万州区",
+                            "confirmedCount": 17,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.833213344056216,
+                            "name": "wanzhouqu"
+                        },
+                        {
+                            "cityName": "开州区",
+                            "confirmedCount": 11,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.3978952727983707,
+                            "name": "kaizhouqu"
+                        },
+                        {
+                            "cityName": "忠县",
+                            "confirmedCount": 11,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.3978952727983707,
+                            "name": "zhongxian"
+                        },
+                        {
+                            "cityName": "云阳县",
+                            "confirmedCount": 11,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.3978952727983707,
+                            "name": "yunyangxian"
+                        },
+                        {
+                            "cityName": "两江新区",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.0794415416798357,
+                            "name": "liangjiangxinqu"
+                        },
+                        {
+                            "cityName": "长寿区",
+                            "confirmedCount": 7,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.9459101490553132,
+                            "name": "changshouqu"
+                        },
+                        {
+                            "cityName": "石柱县",
+                            "confirmedCount": 7,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.9459101490553132,
+                            "name": "shizhuxian"
+                        },
+                        {
+                            "cityName": "大渡口区",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "dadukouqu"
+                        },
+                        {
+                            "cityName": "渝北区",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "yubeiqu"
+                        },
+                        {
+                            "cityName": "江北区",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "jiangbeiqu"
+                        },
+                        {
+                            "cityName": "九龙坡区",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "jiulongpoqu"
+                        },
+                        {
+                            "cityName": "合川区",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "hechuanqu"
+                        },
+                        {
+                            "cityName": "垫江县",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "dianjiangxian"
+                        },
+                        {
+                            "cityName": "巫山县",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 1,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "wushanxian"
+                        },
+                        {
+                            "cityName": "巫溪县",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "wuxixian"
+                        },
+                        {
+                            "cityName": "綦江区",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "qijiangqu"
+                        },
+                        {
+                            "cityName": "璧山区",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "bishanqu"
+                        },
+                        {
+                            "cityName": "奉节县",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "fengjiexian"
+                        },
+                        {
+                            "cityName": "永川区",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "yongchuanqu"
+                        },
+                        {
+                            "cityName": "丰都县",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "fengduxian"
+                        },
+                        {
+                            "cityName": "江津区",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "jiangjinqu"
+                        },
+                        {
+                            "cityName": "铜梁区",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "tongliangqu"
+                        },
+                        {
+                            "cityName": "潼南区",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "tongnanqu"
+                        },
+                        {
+                            "cityName": "涪陵区",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "fulingqu"
+                        },
+                        {
+                            "cityName": "巴南区",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "bananqu"
+                        },
+                        {
+                            "cityName": "大足区",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "dazuqu"
+                        },
+                        {
+                            "cityName": "梁平区",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "liangpingqu"
+                        },
+                        {
+                            "cityName": "城口县",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "chengkouxian"
+                        },
+                        {
+                            "cityName": "秀山县",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "xiushanxian"
+                        },
+                        {
+                            "cityName": "黔江区",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "qianjiangqu"
+                        },
+                        {
+                            "cityName": "南岸区",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "nananqu"
+                        },
+                        {
+                            "cityName": "渝中区",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "yuzhongqu"
+                        }
+                    ],
+                    "value": 37.673856617678226,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "四川省",
+                    "provinceShortName": "四川",
+                    "confirmedCount": 108,
+                    "suspectedCount": 0,
+                    "curedCount": 1,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "成都",
+                            "confirmedCount": 46,
+                            "suspectedCount": 0,
+                            "curedCount": 1,
+                            "deadCount": 0,
+                            "value": 3.828641396489095,
+                            "name": "chengdu"
+                        },
+                        {
+                            "cityName": "绵阳",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.0794415416798357,
+                            "name": "mianyang"
+                        },
+                        {
+                            "cityName": "广安",
+                            "confirmedCount": 7,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.9459101490553132,
+                            "name": "guangan"
+                        },
+                        {
+                            "cityName": "自贡",
+                            "confirmedCount": 7,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.9459101490553132,
+                            "name": "zigong"
+                        },
+                        {
+                            "cityName": "泸州",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "luzhou"
+                        },
+                        {
+                            "cityName": "南充",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "nanchong"
+                        },
+                        {
+                            "cityName": "达州",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "dazhou"
+                        },
+                        {
+                            "cityName": "内江",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "neijiang"
+                        },
+                        {
+                            "cityName": "遂宁",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "suining"
+                        },
+                        {
+                            "cityName": "甘孜州",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "ganzizhou"
+                        },
+                        {
+                            "cityName": "德阳",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "deyang"
+                        },
+                        {
+                            "cityName": "雅安",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "yaan"
+                        },
+                        {
+                            "cityName": "乐山",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "leshan"
+                        },
+                        {
+                            "cityName": "宜宾",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "yibin"
+                        },
+                        {
+                            "cityName": "凉山",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "liangshan"
+                        },
+                        {
+                            "cityName": "资阳",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "ziyang"
+                        },
+                        {
+                            "cityName": "巴中",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "bazhong"
+                        },
+                        {
+                            "cityName": "眉山",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "meishan"
+                        },
+                        {
+                            "cityName": "广元",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "guangyuan"
+                        }
+                    ],
+                    "value": 22.840622624643366,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "山东省",
+                    "provinceShortName": "山东",
+                    "confirmedCount": 130,
+                    "suspectedCount": 0,
+                    "curedCount": 1,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "青岛",
+                            "confirmedCount": 17,
+                            "suspectedCount": 0,
+                            "curedCount": 1,
+                            "deadCount": 0,
+                            "value": 2.833213344056216,
+                            "name": "qingdao"
+                        },
+                        {
+                            "cityName": "临沂",
+                            "confirmedCount": 16,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.772588722239781,
+                            "name": "linyi"
+                        },
+                        {
+                            "cityName": "威海",
+                            "confirmedCount": 12,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.4849066497880004,
+                            "name": "weihai"
+                        },
+                        {
+                            "cityName": "烟台",
+                            "confirmedCount": 12,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.4849066497880004,
+                            "name": "yantai"
+                        },
+                        {
+                            "cityName": "济南",
+                            "confirmedCount": 11,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.3978952727983707,
+                            "name": "jinan"
+                        },
+                        {
+                            "cityName": "德州",
+                            "confirmedCount": 11,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.3978952727983707,
+                            "name": "dezhou"
+                        },
+                        {
+                            "cityName": "枣庄",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.0794415416798357,
+                            "name": "zaozhuang"
+                        },
+                        {
+                            "cityName": "日照",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.0794415416798357,
+                            "name": "rizhao"
+                        },
+                        {
+                            "cityName": "菏泽",
+                            "confirmedCount": 7,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.9459101490553132,
+                            "name": "heze"
+                        },
+                        {
+                            "cityName": "滨州",
+                            "confirmedCount": 7,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.9459101490553132,
+                            "name": "binzhou"
+                        },
+                        {
+                            "cityName": "潍坊",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "weifang"
+                        },
+                        {
+                            "cityName": "济宁",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "jining"
+                        },
+                        {
+                            "cityName": "淄博",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "zibo"
+                        },
+                        {
+                            "cityName": "聊城",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "liaocheng"
+                        },
+                        {
+                            "cityName": "泰安",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "taian"
+                        }
+                    ],
+                    "value": 30.512186128715122,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "广西壮族自治区",
+                    "provinceShortName": "广西",
+                    "confirmedCount": 58,
+                    "suspectedCount": 0,
+                    "curedCount": 2,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "桂林",
+                            "confirmedCount": 16,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.772588722239781,
+                            "name": "guilin"
+                        },
+                        {
+                            "cityName": "北海",
+                            "confirmedCount": 13,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.5649493574615367,
+                            "name": "beihai"
+                        },
+                        {
+                            "cityName": "南宁",
+                            "confirmedCount": 7,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.9459101490553132,
+                            "name": "nanning"
+                        },
+                        {
+                            "cityName": "柳州",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "liuzhou"
+                        },
+                        {
+                            "cityName": "防城港",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 1,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "fangchenggang"
+                        },
+                        {
+                            "cityName": "梧州",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 1,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "wuzhou"
+                        },
+                        {
+                            "cityName": "河池",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "hechi"
+                        },
+                        {
+                            "cityName": "百色",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "bose"
+                        },
+                        {
+                            "cityName": "玉林",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "yulin"
+                        }
+                    ],
+                    "value": 14.555846621326676,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "福建省",
+                    "provinceShortName": "福建",
+                    "confirmedCount": 84,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "福州",
+                            "confirmedCount": 24,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 3.1780538303479458,
+                            "name": "fuzhou"
+                        },
+                        {
+                            "cityName": "莆田",
+                            "confirmedCount": 14,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.6390573296152584,
+                            "name": "putian"
+                        },
+                        {
+                            "cityName": "泉州",
+                            "confirmedCount": 13,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.5649493574615367,
+                            "name": "quanzhou"
+                        },
+                        {
+                            "cityName": "三明",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.0794415416798357,
+                            "name": "sanming"
+                        },
+                        {
+                            "cityName": "宁德",
+                            "confirmedCount": 7,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.9459101490553132,
+                            "name": "ningde"
+                        },
+                        {
+                            "cityName": "厦门",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "xiamen"
+                        },
+                        {
+                            "cityName": "漳州",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "zhangzhou"
+                        },
+                        {
+                            "cityName": "南平",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "nanping"
+                        },
+                        {
+                            "cityName": "龙岩",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "longyan"
+                        }
+                    ],
+                    "value": 17.08954343528411,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "江苏省",
+                    "provinceShortName": "江苏",
+                    "confirmedCount": 99,
+                    "suspectedCount": 0,
+                    "curedCount": 1,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "苏州",
+                            "confirmedCount": 20,
+                            "suspectedCount": 0,
+                            "curedCount": 1,
+                            "deadCount": 0,
+                            "value": 2.995732273553991,
+                            "name": "suzhou"
+                        },
+                        {
+                            "cityName": "南京",
+                            "confirmedCount": 14,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.6390573296152584,
+                            "name": "nanjing"
+                        },
+                        {
+                            "cityName": "无锡",
+                            "confirmedCount": 9,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.1972245773362196,
+                            "name": "wuxi"
+                        },
+                        {
+                            "cityName": "扬州",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.0794415416798357,
+                            "name": "yangzhou"
+                        },
+                        {
+                            "cityName": "常州",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.0794415416798357,
+                            "name": "changzhou"
+                        },
+                        {
+                            "cityName": "泰州",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.0794415416798357,
+                            "name": "taizhou"
+                        },
+                        {
+                            "cityName": "徐州",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.0794415416798357,
+                            "name": "xuzhou"
+                        },
+                        {
+                            "cityName": "南通",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "nantong"
+                        },
+                        {
+                            "cityName": "盐城",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "yancheng"
+                        },
+                        {
+                            "cityName": "宿迁",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "suqian"
+                        },
+                        {
+                            "cityName": "连云港",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "lianyungang"
+                        },
+                        {
+                            "cityName": "淮安",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "huaian"
+                        },
+                        {
+                            "cityName": "镇江",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "zhenjiang"
+                        }
+                    ],
+                    "value": 24.009965404696977,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "河南省",
+                    "provinceShortName": "河南",
+                    "confirmedCount": 206,
+                    "suspectedCount": 0,
+                    "curedCount": 1,
+                    "deadCount": 2,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "郑州",
+                            "confirmedCount": 40,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 3.6888794541139363,
+                            "name": "zhengzhou"
+                        },
+                        {
+                            "cityName": "信阳",
+                            "confirmedCount": 32,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 3.4657359027997265,
+                            "name": "xinyang"
+                        },
+                        {
+                            "cityName": "南阳",
+                            "confirmedCount": 31,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 1,
+                            "value": 3.4339872044851463,
+                            "name": "nanyang"
+                        },
+                        {
+                            "cityName": "周口",
+                            "confirmedCount": 19,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.9444389791664403,
+                            "name": "zhoukou"
+                        },
+                        {
+                            "cityName": "驻马店",
+                            "confirmedCount": 16,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.772588722239781,
+                            "name": "zhumadian"
+                        },
+                        {
+                            "cityName": "安阳市",
+                            "confirmedCount": 14,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.6390573296152584,
+                            "name": "anyangshi"
+                        },
+                        {
+                            "cityName": "商丘",
+                            "confirmedCount": 14,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.6390573296152584,
+                            "name": "shangqiu"
+                        },
+                        {
+                            "cityName": "漯河市",
+                            "confirmedCount": 9,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.1972245773362196,
+                            "name": "taheshi"
+                        },
+                        {
+                            "cityName": "新乡",
+                            "confirmedCount": 7,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.9459101490553132,
+                            "name": "xinxiang"
+                        },
+                        {
+                            "cityName": "平顶山",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "pingdingshan"
+                        },
+                        {
+                            "cityName": "鹤壁",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "hebi"
+                        },
+                        {
+                            "cityName": "三门峡",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "sanmenxia"
+                        },
+                        {
+                            "cityName": "开封",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "kaifeng"
+                        },
+                        {
+                            "cityName": "洛阳",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "luoyang"
+                        },
+                        {
+                            "cityName": "许昌",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "xuchang"
+                        },
+                        {
+                            "cityName": "焦作",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "jiaozuo"
+                        },
+                        {
+                            "cityName": "濮阳",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "puyang"
+                        }
+                    ],
+                    "value": 33.510103664763115,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "海南省",
+                    "provinceShortName": "海南",
+                    "confirmedCount": 43,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 1,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "三亚",
+                            "confirmedCount": 14,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.6390573296152584,
+                            "name": "sanya"
+                        },
+                        {
+                            "cityName": "海口",
+                            "confirmedCount": 9,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.1972245773362196,
+                            "name": "haikou"
+                        },
+                        {
+                            "cityName": "万宁",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.0794415416798357,
+                            "name": "wanning"
+                        },
+                        {
+                            "cityName": "儋州",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "danzhou"
+                        },
+                        {
+                            "cityName": "澄迈县",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 1,
+                            "value": 0.6931471805599453,
+                            "name": "chengmaixian"
+                        },
+                        {
+                            "cityName": "临高县",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "lingaoxian"
+                        },
+                        {
+                            "cityName": "陵水县",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "lingshuixian"
+                        },
+                        {
+                            "cityName": "琼海市",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "qionghaishi"
+                        },
+                        {
+                            "cityName": "东方市",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "dongfangshi"
+                        },
+                        {
+                            "cityName": "琼中县",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "qiongzhongxian"
+                        }
+                    ],
+                    "value": 9.218308541625358,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "天津市",
+                    "provinceShortName": "天津",
+                    "confirmedCount": 27,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "河北区",
+                            "confirmedCount": 7,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.9459101490553132,
+                            "name": "hebeiqu"
+                        },
+                        {
+                            "cityName": "河东区",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "hedongqu"
+                        },
+                        {
+                            "cityName": "外地来津",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "waidilaijin"
+                        },
+                        {
+                            "cityName": "河西区",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "hexiqu"
+                        },
+                        {
+                            "cityName": "和平区",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "hepingqu"
+                        },
+                        {
+                            "cityName": "西青区",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "xiqingqu"
+                        },
+                        {
+                            "cityName": "滨海新区",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "binhaixinqu"
+                        },
+                        {
+                            "cityName": "南开区",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "nankaiqu"
+                        },
+                        {
+                            "cityName": "红桥区",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "hongqiaoqu"
+                        }
+                    ],
+                    "value": 7.608870629191259,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "江西省",
+                    "provinceShortName": "江西",
+                    "confirmedCount": 109,
+                    "suspectedCount": 0,
+                    "curedCount": 3,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "南昌",
+                            "confirmedCount": 25,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 3.2188758248682006,
+                            "name": "nanchang"
+                        },
+                        {
+                            "cityName": "九江",
+                            "confirmedCount": 16,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.772588722239781,
+                            "name": "jiujiang"
+                        },
+                        {
+                            "cityName": "赣州",
+                            "confirmedCount": 16,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.772588722239781,
+                            "name": "ganzhou"
+                        },
+                        {
+                            "cityName": "宜春",
+                            "confirmedCount": 14,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.6390573296152584,
+                            "name": "yichun"
+                        },
+                        {
+                            "cityName": "新余",
+                            "confirmedCount": 11,
+                            "suspectedCount": 0,
+                            "curedCount": 1,
+                            "deadCount": 0,
+                            "value": 2.3978952727983707,
+                            "name": "xinyu"
+                        },
+                        {
+                            "cityName": "抚州",
+                            "confirmedCount": 9,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.1972245773362196,
+                            "name": "fuzhou"
+                        },
+                        {
+                            "cityName": "上饶",
+                            "confirmedCount": 9,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.1972245773362196,
+                            "name": "shangrao"
+                        },
+                        {
+                            "cityName": "吉安",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 1,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "jian"
+                        },
+                        {
+                            "cityName": "萍乡",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 1,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "pingxiang"
+                        },
+                        {
+                            "cityName": "景德镇",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "jingdezhen"
+                        },
+                        {
+                            "cityName": "鹰潭",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "yingtan"
+                        }
+                    ],
+                    "value": 20.968043748673608,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "陕西省",
+                    "provinceShortName": "陕西",
+                    "confirmedCount": 56,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "西安",
+                            "confirmedCount": 18,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.8903717578961645,
+                            "name": "xian"
+                        },
+                        {
+                            "cityName": "安康",
+                            "confirmedCount": 10,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.302585092994046,
+                            "name": "ankang"
+                        },
+                        {
+                            "cityName": "汉中",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "hanzhong"
+                        },
+                        {
+                            "cityName": "咸阳",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "xianyang"
+                        },
+                        {
+                            "cityName": "铜川",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "tongchuan"
+                        },
+                        {
+                            "cityName": "宝鸡",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "baoji"
+                        },
+                        {
+                            "cityName": "渭南",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "weinan"
+                        },
+                        {
+                            "cityName": "延安",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "yanan"
+                        },
+                        {
+                            "cityName": "商洛",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "shangluo"
+                        }
+                    ],
+                    "value": 14.074793155894355,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "贵州省",
+                    "provinceShortName": "贵州",
+                    "confirmedCount": 9,
+                    "suspectedCount": 0,
+                    "curedCount": 1,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "黔南州",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "qiannanzhou"
+                        },
+                        {
+                            "cityName": "铜仁",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "tongren"
+                        },
+                        {
+                            "cityName": "贵阳",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 1,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "guiyang"
+                        },
+                        {
+                            "cityName": "黔西南州",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "qianxinanzhou"
+                        },
+                        {
+                            "cityName": "六盘水",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "liupanshui"
+                        }
+                    ],
+                    "value": 2.0794415416798357,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "辽宁省",
+                    "provinceShortName": "辽宁",
+                    "confirmedCount": 38,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "沈阳",
+                            "confirmedCount": 9,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.1972245773362196,
+                            "name": "shenyang"
+                        },
+                        {
+                            "cityName": "大连",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "dalian"
+                        },
+                        {
+                            "cityName": "丹东",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "dandong"
+                        },
+                        {
+                            "cityName": "锦州",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "jinzhou"
+                        },
+                        {
+                            "cityName": "葫芦岛",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "huludao"
+                        },
+                        {
+                            "cityName": "朝阳",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "zhaoyang"
+                        },
+                        {
+                            "cityName": "本溪",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "benxi"
+                        },
+                        {
+                            "cityName": "铁岭",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "tieling"
+                        },
+                        {
+                            "cityName": "盘锦",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "panjin"
+                        },
+                        {
+                            "cityName": "营口",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "yingkou"
+                        },
+                        {
+                            "cityName": "辽阳",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "liaoyang"
+                        }
+                    ],
+                    "value": 11.366742954792146,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "香港",
+                    "provinceShortName": "香港",
+                    "confirmedCount": 8,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [],
+                    "value": 0,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "黑龙江省",
+                    "provinceShortName": "黑龙江",
+                    "confirmedCount": 38,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 1,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "哈尔滨",
+                            "confirmedCount": 11,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.3978952727983707,
+                            "name": "haerbin"
+                        },
+                        {
+                            "cityName": "绥化",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 1,
+                            "value": 2.0794415416798357,
+                            "name": "suihua"
+                        },
+                        {
+                            "cityName": "大庆",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "daqing"
+                        },
+                        {
+                            "cityName": "佳木斯",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "jiamusi"
+                        },
+                        {
+                            "cityName": "齐齐哈尔",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "qiqihaer"
+                        },
+                        {
+                            "cityName": "七台河",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "qitaihe"
+                        },
+                        {
+                            "cityName": "牡丹江",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "mudanjiang"
+                        },
+                        {
+                            "cityName": "双鸭山",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "shuangyashan"
+                        },
+                        {
+                            "cityName": "鸡西",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "jixi"
+                        },
+                        {
+                            "cityName": "大兴安岭",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "daxinganling"
+                        }
+                    ],
+                    "value": 9.487972108574462,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "澳门",
+                    "provinceShortName": "澳门",
+                    "confirmedCount": 7,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [],
+                    "value": 0,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "新疆维吾尔自治区",
+                    "provinceShortName": "新疆",
+                    "confirmedCount": 13,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "乌鲁木齐",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "wulumuqi"
+                        },
+                        {
+                            "cityName": "伊犁州",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "yilizhou"
+                        },
+                        {
+                            "cityName": "吐鲁番市",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "tulufanshi"
+                        },
+                        {
+                            "cityName": "第七师",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "diqishi"
+                        },
+                        {
+                            "cityName": "第八师石河子市",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "dibashishihezishi"
+                        }
+                    ],
+                    "value": 3.1780538303479453,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "甘肃省",
+                    "provinceShortName": "甘肃",
+                    "confirmedCount": 24,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "兰州",
+                            "confirmedCount": 14,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.6390573296152584,
+                            "name": "lanzhou"
+                        },
+                        {
+                            "cityName": "临夏",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "linxia"
+                        },
+                        {
+                            "cityName": "张掖",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "zhangye"
+                        },
+                        {
+                            "cityName": "白银市",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "baiyinshi"
+                        },
+                        {
+                            "cityName": "定西",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "dingxi"
+                        },
+                        {
+                            "cityName": "陇南",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "longnan"
+                        },
+                        {
+                            "cityName": "金昌市",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "jinchangshi"
+                        },
+                        {
+                            "cityName": "天水市",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "tianshuishi"
+                        },
+                        {
+                            "cityName": "平凉市",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "pingliangshi"
+                        }
+                    ],
+                    "value": 4.025351690735149,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "云南省",
+                    "provinceShortName": "云南",
+                    "confirmedCount": 51,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "昆明",
+                            "confirmedCount": 15,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.70805020110221,
+                            "name": "kunming"
+                        },
+                        {
+                            "cityName": "丽江",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "lijiang"
+                        },
+                        {
+                            "cityName": "西双版纳",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "xishuangbanna"
+                        },
+                        {
+                            "cityName": "曲靖",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "qujing"
+                        },
+                        {
+                            "cityName": "玉溪",
+                            "confirmedCount": 5,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.6094379124341003,
+                            "name": "yuxi"
+                        },
+                        {
+                            "cityName": "保山",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "baoshan"
+                        },
+                        {
+                            "cityName": "大理",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "dali"
+                        },
+                        {
+                            "cityName": "红河",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "honghe"
+                        },
+                        {
+                            "cityName": "昭通",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "zhaotong"
+                        },
+                        {
+                            "cityName": "德宏",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "dehong"
+                        },
+                        {
+                            "cityName": "普洱",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "puer"
+                        }
+                    ],
+                    "value": 14.074793155894357,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "台湾",
+                    "provinceShortName": "台湾",
+                    "confirmedCount": 8,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [],
+                    "value": 0,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "山西省",
+                    "provinceShortName": "山西",
+                    "confirmedCount": 27,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "晋中",
+                            "confirmedCount": 9,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.1972245773362196,
+                            "name": "jinzhong"
+                        },
+                        {
+                            "cityName": "运城",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "yuncheng"
+                        },
+                        {
+                            "cityName": "太原",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "taiyuan"
+                        },
+                        {
+                            "cityName": "大同",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "datong"
+                        },
+                        {
+                            "cityName": "吕梁",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "lvliang"
+                        },
+                        {
+                            "cityName": "朔州市",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "shuozhoushi"
+                        },
+                        {
+                            "cityName": "阳泉",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "yangquan"
+                        },
+                        {
+                            "cityName": "长治",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "changzhi"
+                        },
+                        {
+                            "cityName": "临汾市",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "linfenshi"
+                        }
+                    ],
+                    "value": 7.5725029850203835,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "吉林省",
+                    "provinceShortName": "吉林",
+                    "confirmedCount": 9,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "吉林",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "jilin"
+                        },
+                        {
+                            "cityName": "松原",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "songyuan"
+                        },
+                        {
+                            "cityName": "长春",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "changchun"
+                        },
+                        {
+                            "cityName": "四平市",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "sipingshi"
+                        },
+                        {
+                            "cityName": "公主岭",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "gongzhuling"
+                        },
+                        {
+                            "cityName": "通化",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "tonghua"
+                        }
+                    ],
+                    "value": 1.791759469228055,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "河北省",
+                    "provinceShortName": "河北",
+                    "confirmedCount": 48,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 1,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "石家庄",
+                            "confirmedCount": 10,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.302585092994046,
+                            "name": "shijiazhuang"
+                        },
+                        {
+                            "cityName": "廊坊",
+                            "confirmedCount": 9,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 2.1972245773362196,
+                            "name": "langfang"
+                        },
+                        {
+                            "cityName": "沧州",
+                            "confirmedCount": 8,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 1,
+                            "value": 2.0794415416798357,
+                            "name": "cangzhou"
+                        },
+                        {
+                            "cityName": "保定",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "baoding"
+                        },
+                        {
+                            "cityName": "邯郸",
+                            "confirmedCount": 4,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.3862943611198906,
+                            "name": "handan"
+                        },
+                        {
+                            "cityName": "邢台",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "xingtai"
+                        },
+                        {
+                            "cityName": "衡水",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "hengshui"
+                        },
+                        {
+                            "cityName": "唐山",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "tangshan"
+                        },
+                        {
+                            "cityName": "承德",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "chengde"
+                        },
+                        {
+                            "cityName": "张家口",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "zhangjiakou"
+                        }
+                    ],
+                    "value": 13.053141908362374,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "宁夏回族自治区",
+                    "provinceShortName": "宁夏",
+                    "confirmedCount": 12,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "银川",
+                            "confirmedCount": 7,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.9459101490553132,
+                            "name": "yinchuan"
+                        },
+                        {
+                            "cityName": "吴忠",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "wuzhong"
+                        },
+                        {
+                            "cityName": "中卫",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "zhongwei"
+                        },
+                        {
+                            "cityName": "固原",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "guyuan"
+                        }
+                    ],
+                    "value": 3.0445224377234226,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "内蒙古自治区",
+                    "provinceShortName": "内蒙古",
+                    "confirmedCount": 16,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "包头",
+                            "confirmedCount": 3,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.0986122886681096,
+                            "name": "baotou"
+                        },
+                        {
+                            "cityName": "呼和浩特",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "huhehaote"
+                        },
+                        {
+                            "cityName": "呼伦贝尔",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "hulunbeier"
+                        },
+                        {
+                            "cityName": "锡林郭勒盟",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "xilinguolemeng"
+                        },
+                        {
+                            "cityName": "鄂尔多斯",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "eerduosi"
+                        },
+                        {
+                            "cityName": "赤峰",
+                            "confirmedCount": 2,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0.6931471805599453,
+                            "name": "chifeng"
+                        },
+                        {
+                            "cityName": "兴安盟",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "xinganmeng"
+                        },
+                        {
+                            "cityName": "通辽",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "tongliao"
+                        },
+                        {
+                            "cityName": "巴彦淖尔",
+                            "confirmedCount": 1,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 0,
+                            "name": "bayannaoer"
+                        }
+                    ],
+                    "value": 4.564348191467836,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "青海省",
+                    "provinceShortName": "青海",
+                    "confirmedCount": 6,
+                    "suspectedCount": 0,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [
+                        {
+                            "cityName": "西宁",
+                            "confirmedCount": 6,
+                            "suspectedCount": 0,
+                            "curedCount": 0,
+                            "deadCount": 0,
+                            "value": 1.791759469228055,
+                            "name": "xining"
+                        }
+                    ],
+                    "value": 1.791759469228055,
+                    "name": "",
+                    "cityName": ""
+                },
+                {
+                    "provinceName": "西藏自治区",
+                    "provinceShortName": "西藏",
+                    "confirmedCount": 0,
+                    "suspectedCount": 1,
+                    "curedCount": 0,
+                    "deadCount": 0,
+                    "country": "中国",
+                    "children": [],
+                    "value": 0,
+                    "name": "",
+                    "cityName": ""
+                }
+            ],
+            "confirmedCount": 6074,
+            "suspectedCount": 1,
+            "curedCount": 114,
+            "deadCount": 132,
+            "value": 554.304817905992,
+            "name": "zhongguo",
+            "cityName": ""
+        }

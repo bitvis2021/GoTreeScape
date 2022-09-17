@@ -1,0 +1,44 @@
+{
+  "Title": "Treemap",
+  "Element": {
+    "Node": "rect",
+    "Link": "hidden", 
+    "Color": "depth",
+    "Width": "value",
+    "Height": "adaptive"
+  },
+  "Layout": {
+    "Category": "linear", 
+    "Linear": {
+      "X": {
+        "Relation": {
+          "Category": "inclusion",
+          "Padding": 0.05
+        },
+        "TreeSorting": {
+          "Criteria": "null"
+        },
+        "SubtreeSorting":  {
+          "Criteria": "index",
+          "Order": "asc",
+          "Padding": 0.05
+        }
+      },
+      "Y": {
+        "Relation": {
+          "Category": "inclusion"
+        },
+        "TreeSorting": {
+          "Criteria": "null"
+        },
+        "SubtreeSorting": {
+          "Criteria": "null"
+        }
+      }
+    }, 
+    "LayoutMode": "top-down"
+  },
+  "CoordinateSystem": {
+    "Category": "cartesian"
+  }
+}

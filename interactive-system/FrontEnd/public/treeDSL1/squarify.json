@@ -1,0 +1,18 @@
+{
+  "Title": "squarify",
+  "Element": {
+    "Node": "rect",
+    "Link": "hidden", 
+    "Color": "depth",
+    "Width": "value",
+    "Height": "value"
+  },
+  "Layout": {
+    "Category": "nonlinear", 
+    "NonLinear": "Squarify",
+    "LayoutMode": "top-down"
+  },
+  "CoordinateSystem": {
+    "Category": "cartesian"
+  }
+}

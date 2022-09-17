@@ -1,0 +1,46 @@
+{
+  "Name": "fancharts",
+  "Element": {
+    "Node": "rectangle",
+    "Color": "depth",
+    "Link": "hidden",
+    "ColorSchema": "option1",
+    "Thickness": "static",
+    "StaticThickness": 2,
+    "LabelAnchor": "middle"
+  },
+  "CoordinateSystem": {
+    "Category": "polar",
+    "PolarCenterPos": "top",
+    "PolarCenterType": "root",
+    "CentralAngle": 1,
+    "InnerRadius": 0
+  },
+  "Layout": {
+    "Category": "AxisIndependent",
+    "X": {
+      "Root": {
+        "Relation": "include",
+        "Padding": [
+          "0.05",
+          "0.05"
+        ]
+      },
+      "Subtree": {
+        "Relation": "flatten"
+      }
+    },
+    "Y": {
+      "Root": {
+        "Relation": "juxtapose"
+      },
+      "Subtree": {
+        "Relation": "align",
+        "Alignment": "top"
+      }
+    },
+    "Mode": "bottom-up",
+    "SubtreeWidth": "adaptive",
+    "SubtreeHeight": "adaptive"
+  }
+}

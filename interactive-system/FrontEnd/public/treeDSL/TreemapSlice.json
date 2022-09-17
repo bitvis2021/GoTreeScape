@@ -1,0 +1,39 @@
+{
+  "Title": "Treemap-Slice",
+  "Element": {
+      "Node": "rectangle",
+      "Link": "hidden",
+      "Color": "depth"
+  },
+  "CoordinateSystem": {
+    "Category": "cartesian"
+  },
+  "Layout": {
+      "Category": "AxisIndependent",
+      "Mode": "top-down",
+      "SubtreeWidth": "value",
+      "SubtreeHeight": "adaptive",
+      "X": {
+          "Root": {
+              "Relation": "include",
+              "Padding": 0.05
+          },
+          "Subtree": {
+              "Relation": "flatten",
+              "SortingCriteria": "index",
+              "SortingOrder": "asc",
+              "Margin": 0.05
+          }
+      },
+      "Y": {
+          "Root": {
+              "Relation": "include",
+              "Padding": 0.05
+          },
+          "Subtree": {
+              "Relation": "align",
+              "Alignment": "center"
+          }
+      }
+  }
+}

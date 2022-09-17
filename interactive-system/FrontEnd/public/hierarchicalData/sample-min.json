@@ -1,0 +1,57 @@
+{
+    "name": "A",
+    "attribute_1": 25,
+    "attribute_2": 100,
+    "children": [
+        {
+            "name": "A-1",
+            "attribute_1": 6,
+            "attribute_2": 80,
+            "children": [
+                {
+                    "name": "A-1-1",
+                    "attribute_1": 2,
+                    "attribute_2": 66,
+                    "children": []
+                },
+                {
+                    "name": "A-1-2",
+                    "attribute_1": 4,
+                    "attribute_2": 52,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "A-2",
+            "attribute_1": 11,
+            "attribute_2": 90,
+            "children": [
+                {
+                    "name": "A-2-1",
+                    "attribute_1": 3,
+                    "attribute_2": 80,
+                    "children": []
+                },
+                {
+                    "name": "A-2-2",
+                    "attribute_1": 6,
+                    "attribute_2": 80,
+                    "children": []
+                },
+                {
+                    "name": "A-2-3",
+                    "attribute_1": 2,
+                    "attribute_2": 80,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "A-3",
+            "attribute_1": 8,
+            "attribute_2": 77,
+            "children": []
+        }
+    ]
+}

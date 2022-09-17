@@ -1,0 +1,47 @@
+{
+  "Name": "visibility-improved treemap",
+  "Element": {
+    "Node": "rectangle",
+    "Color": "depth",
+    "Link": "hidden",
+    "ColorSchema": "option1",
+    "Thickness": "static",
+    "StaticThickness": 2,
+    "LabelAnchor": "middle"
+  },
+  "CoordinateSystem": {
+    "Category": "cartesian",
+    "PolarCenterPos": "top",
+    "PolarCenterType": "root"
+  },
+  "Layout": {
+    "Category": "AxisIndependent",
+    "X": {
+      "Root": {
+        "Relation": "include",
+        "Padding": [
+          "0.05",
+          "-0.06"
+        ]
+      },
+      "Subtree": {
+        "Relation": "flatten"
+      }
+    },
+    "Y": {
+      "Root": {
+        "Relation": "include",
+        "Padding": [
+          "0.1",
+          "-0.06"
+        ]
+      },
+      "Subtree": {
+        "Relation": "align"
+      }
+    },
+    "Mode": "top-down",
+    "SubtreeWidth": "adaptive",
+    "SubtreeHeight": "adaptive"
+  }
+}

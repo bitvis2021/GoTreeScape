@@ -1,0 +1,47 @@
+{
+  "Element": {
+    "Mark": "rect / circle / other glyph",
+    "RootWidth": "adaptive / map-value",
+    "RootHeight": "adaptive / map-value",
+    "Link": "..options",
+    "Color": "..options"
+  },
+  "Layout": {
+    "Mode": "bottom-up / top-down",
+    "SubtreeWidth": "adaptive / map-value",
+    "SubtreeHeight": "adaptive / map-value",
+    "CoordinateSystem": "cartesian or other"
+  },
+  "Axis-X": {
+    "Relation between root and subtree": {
+      "Relation": "independent / adjacent / inclusion",
+      "Alignment": "Number: 0~100, % of total width",
+      "Order": "root - subtree / subtree - root",
+      "Padding-adjacent": "Number: -100~100, % of total width",
+      "Padding-inclusion": "Number: 0~100, % of total width"
+    },
+    "Relation between siblings": {
+      "Relation": "null / adjacent",
+      "Alignment": "Number: 0~100, % of subtrees' width",
+      "Sorting": "index / map-value",
+      "Order": "asc or desc",
+      "Padding": "Number: -100~100, % of subtrees' width"
+    }
+  },
+  "Axis-Y": {
+    "Relation between root and subtree": {
+      "Relation": "independent / adjacent / inclusion",
+      "Alignment": "Number: 0~100, % of total width",
+      "Order": "root - subtree / subtree - root",
+      "Padding-adjacent": "Number: -100~100, % of total width",
+      "Padding-inclusion": "Number: 0~100, % of total width"
+    },
+    "Relation between siblings": {
+      "Relation": "null / adjacent",
+      "Alignment": "Number: 0~100, % of subtrees' width",
+      "Sorting": "index / map-value",
+      "Order": "asc or desc",
+      "Padding": "Number: -100~100, % of subtrees' width"
+    }
+  }
+}

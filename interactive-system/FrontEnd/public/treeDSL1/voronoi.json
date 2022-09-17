@@ -1,0 +1,18 @@
+{
+  "Title": "voronoi",
+  "Element": {
+    "Node": "polygon",
+    "Link": "hidden", 
+    "Color": "depth",
+    "Width": "value",
+    "Height": "value"
+  },
+  "Layout": {
+    "Category": "nonlinear", 
+    "NonLinear": "Voronoi",
+    "LayoutMode": "top-down"
+  },
+  "CoordinateSystem": {
+    "Category": "cartesian"
+  }
+}

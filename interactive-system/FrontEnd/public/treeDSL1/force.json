@@ -1,0 +1,18 @@
+{
+  "Title": "force",
+  "Element": {
+    "Node": "ellipse",
+    "Link": "hidden", 
+    "Color": "depth",
+    "Width": "value",
+    "Height": "value"
+  },
+  "Layout": {
+    "Category": "nonlinear", 
+    "NonLinear": "Force",
+    "LayoutMode": "top-down"
+  },
+  "CoordinateSystem": {
+    "Category": "cartesian"
+  }
+}

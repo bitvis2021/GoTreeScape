@@ -1,0 +1,38 @@
+{
+    "Element": {
+      "Node": "rectangle",
+      "RootWidth": "rdepth",
+      "Link": "hidden",
+      "Color": "depth"
+    },
+    "CoordinateSystem": {
+        "Category": "polar",
+        "PolarInnerRadius": 0.3
+    },
+    "Layout": {
+      "Category": "AxisIndependent",
+      "Y": {
+          "Root": {
+            "Relation": "juxtapose",
+            "Margin": "0.05r",
+            "Position": "bottom"
+          },
+          "Subtree": {
+            "Relation": "flatten",
+            "Margin": "0.05r"
+          }
+      },
+      "X": {
+          "Root": {
+            "Relation": "included",
+            "Alignment": "left"
+          },
+          "Subtree": {
+            "Relation": "align",
+            "Alignment": "left"
+          }
+      },
+      "Mode": "bottom-up"
+    }
+  }
+  

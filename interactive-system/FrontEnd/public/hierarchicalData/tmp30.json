@@ -1,0 +1,138 @@
+{
+  "name": "treeSample",
+  "value": 37588,
+  "children": [
+    {
+      "name": "42oHuFAR7OL0PRtncQHB",
+      "value": 63299,
+      "children": [
+        {
+          "name": "CBpskXUP3fRY4lPS7oAK",
+          "value": 25052,
+          "children": [
+            {
+              "name": "V0B0U1mMWnS3gOqLuhHC",
+              "value": 45881,
+              "children": [
+                {
+                  "name": "5ubez1GC05byclkCIRkY",
+                  "value": 35338,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "n2eJNxim7Rpk3cDK0ozS",
+      "value": 20769,
+      "children": [
+        {
+          "name": "6KBZ2qelp7B5aEn31WYr",
+          "value": 88265,
+          "children": []
+        },
+        {
+          "name": "XfTMFV6Zkf7kjvgmklz2",
+          "value": 41956,
+          "children": [
+            {
+              "name": "ToQbmrmyfIp2LsXTZmjl",
+              "value": 32679,
+              "children": []
+            },
+            {
+              "name": "gHENDrDDt1tMCCq9lH1A",
+              "value": 98618,
+              "children": []
+            },
+            {
+              "name": "tuRk4A0dcOEOVGtQyNPt",
+              "value": 31446,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fX26sW2oPHvjWLMPdzt2",
+      "value": 75837,
+      "children": [
+        {
+          "name": "zUkhUWYppk86BeyiIB6Z",
+          "value": 89890,
+          "children": []
+        },
+        {
+          "name": "AC6FjOa1vwXYungwXreQ",
+          "value": 87270,
+          "children": [
+            {
+              "name": "DUATkU5LIiQZEtRBsXef",
+              "value": 8388,
+              "children": []
+            },
+            {
+              "name": "DFvSlpaMs7kKMzzrZhNt",
+              "value": 52123,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bTE0VqYnoCp8NL9c85vF",
+      "value": 55583,
+      "children": [
+        {
+          "name": "nKgBpT9PWdRa5IfuvhgB",
+          "value": 49892,
+          "children": [
+            {
+              "name": "ZgG2OexvedOuhPXN7MVk",
+              "value": 55922,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "0EOcmRuwA4WmgpsRJdyM",
+          "value": 78950,
+          "children": [
+            {
+              "name": "l53ifuOHAEhDym1tiSAo",
+              "value": 1879,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JbHuvwhKoEsQLbH34BDa",
+      "value": 87519,
+      "children": [
+        {
+          "name": "OzoegrDP4ApAxQjfk7Xq",
+          "value": 62490,
+          "children": [
+            {
+              "name": "Xzdqlc54KRez5mq3NsN6",
+              "value": 17775,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "5jnzI2q21hYeE1s3faAz",
+          "value": 15747,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+    "Element": {
+        "Node": "hidden",
+        "Color": "depth",
+        "Link": "curve",
+        "Label": "hidden",
+        "LinkWidth": "depth"
+    },
+    "CoordinateSystem": {
+        "Category": "cartesian"
+    },
+    "Layout": {
+        "Category": "AxisIndependent",
+        "X": {
+            "Root": {
+                "Relation": "include",
+                "Padding": 0
+
+            },
+            "Siblings": {
+                "Relation": "flatten",
+                "Margin": 0
+            }
+        },
+        "Y": {
+            "Root": {
+                "Relation": "juxtapose",
+                "Margin": "0r"
+            },
+            "Siblings": {
+                "Relation": "align"
+            }
+        },
+        "Mode": "top-down"
+    }
+}

@@ -1,0 +1,140 @@
+{ "name": "A",
+   "children": [
+      { 
+      	"name": "B",
+    	"children": [
+    		{
+    			"name": "C",
+    			"children": [
+    				{
+		      			"name": "D",
+		      			"children": [
+		      				{
+		      					"name": "E",
+		      					"value": 2
+		      				},
+		      				{
+		      					"name": "F",
+		      					"value": 1
+		      				}
+		      			]
+		      		},
+		      		{
+		      			"name": "G",
+		      			"children": [
+		      				{
+		      					"name": "H",
+		      					"value": 3
+		      				},
+		      				{
+		      					"name": "I",
+		      					"value": 3
+		      				}
+		      			]
+		      		}
+    			]
+    		},
+    		{
+    			"name": "J",
+    			"children": [
+    				{
+		      			"name": "K",
+		      			"children": [
+							{
+		      					"name": "L",
+		      					"value": 2
+		      				},
+		      				{
+		      					"name": "M",
+		      					"value": 5
+		      				}
+		      			]
+		      		},
+		      		{
+		      			"name": "N",
+		      			"children": [
+		      				{
+		      					"name": "O",
+		      					"value": 4
+		      				},
+		      				{
+		      					"name": "P",
+		      					"value": 1
+		      				}
+		      			]
+		      		}
+    			]
+    		}
+    	]
+      },
+      { 
+      	"name": "Q", 
+      	"children": [
+      		{
+      			"name": "R",
+      			"children": [
+      				{
+		      			"name": "S",
+		      			"children": [
+		      				{
+		      					"name": "T",
+		      					"value": 5
+		      				},
+		      				{
+		      					"name": "U",
+		      					"value": 2
+		      				}
+		      			]
+		      		},
+		      		{
+		      			"name": "V",
+		      			"children": [
+		      				{
+		      					"name": "W",
+		      					"value": 2
+		      				},
+		      				{
+		      					"name": "X",
+		      					"value": 3
+		      				}
+		      			]
+		      		}
+      			]
+      		},
+      		{
+      			"name": "Y",
+      			"children": [
+      				{
+		      			"name": "A",
+		      			"value": 2,
+		      			"children": [
+		      				{
+		      					"name": "AA",
+		      					"value": 6
+		      				},
+		      				{
+		      					"name": "BB", 
+		      					"value": 2
+		      				}
+		      			]
+		      		},
+		      		{
+		      			"name": "CC",
+		      			"value": 3,
+		      			"children": [
+		      				{
+		      					"name": "DD",
+		      					"value": 2
+		      				},
+		      				{
+		      					"name": "EE", 
+		      					"value": 2
+		      				}
+		      			]
+		      		}
+      			]
+      		}
+      	]
+      }
+    ]
+}

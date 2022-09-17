@@ -1,0 +1,74 @@
+{
+  "Accordion Drawing": [
+    59868
+  ],
+  "BarcodeTree": [
+    12658
+  ],
+  "Beam Tree": [
+    59225
+  ],
+  "Deep Tree": [
+    3456
+  ],
+  "diamond Tree": [
+    38646
+  ],
+  "Ellimaps": [
+    21493
+  ],
+  "Hierarchical Sector Chart": [
+    26896
+  ],
+  "Indentation": [
+    8437
+  ],
+  "Indented Pixel Tree Plot": [
+    11048
+  ],
+  "outside-in hierarchy": [
+    46404
+  ],
+  "ThreadArc": [
+    10196
+  ],
+  "Treemap slice": [
+    2543
+  ],
+  "Treemap slice": [
+    31301
+  ],
+  "parent-centric node-link": [
+    9113
+  ],
+  "node-link diagram": [
+    9630
+  ],
+  "Cheops": [
+    34389
+  ],
+  "radial tree": [
+    7447
+  ],
+  "hexagonal grid tree drawing": [
+    2906
+  ],
+  "Bubble Tree": [
+    52619
+  ],
+  "Sunburst": [
+    39114
+  ],
+  "Sundown Chart": [
+    38856
+  ],
+  "icicle plot": [
+    3193
+  ],
+  "spiral tree": [
+    8740
+  ],
+  "ClockTree": [
+    6340
+  ]
+}
