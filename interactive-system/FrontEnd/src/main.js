@@ -23,6 +23,8 @@ Vue.use(VueCookies)
 
 Vue.config.productionTip = false
 
+// import d3Voronoi from "d3-voronoi"
+// console.log('d3.Voronoi', d3.voronoi)
 
 import * as d3 from "d3"
 window.d3 = d3

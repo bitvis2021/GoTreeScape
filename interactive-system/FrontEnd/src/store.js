@@ -88,9 +88,10 @@ export default new Vuex.Store({
     treevisSearchResult: [],
     showLandmarkPoint: true,
     showLandmarkPreview: true,
-    showExistTreePoint: false,
+    showExistTreePoint: true,
     showExistTreePreview: false,
-    landmarkPreviewAmount: 25,
+    showClusterBoundary: false,
+    landmarkPreviewAmount: 40,
     refreshLandmarkPreviewState: 0,
     selectedNodeListInThumbnail: []
   },
@@ -332,7 +333,7 @@ export default new Vuex.Store({
       state.showExistTreePreview = showExistTreePreview
     },
     ['UPDATE_LAND_PREVIEW_AMOUNT'] (state, landmarkPreviewAmount) {
-      state.landmarkPreviewAmount = landmarkPreviewAmount
+      state.landmarkPreviewAmount = landmarkPreviewAmount * 3
     },
     ['REFRESH_LANDMARK_PREVIEW'] (state) {
       state.refreshLandmarkPreviewState = (state.refreshLandmarkPreviewState + 1) % 2
@@ -343,6 +344,9 @@ export default new Vuex.Store({
     ['UPDATE_SELECTED_NODE_LIST_IN_THUMBNAIL'] (state, selectedNodeListInThumbnail) {
       state.selectedNodeListInThumbnail = selectedNodeListInThumbnail
     },
+    ['UPDATE_SHOW_CLUSTER_BOUNDARY'] (state, showClusterBoundary) {
+      state.showClusterBoundary = showClusterBoundary
+    }
   },
   actions: {
     // eslint-disable-next-line no-unused-vars

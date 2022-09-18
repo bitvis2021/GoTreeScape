@@ -10,6 +10,7 @@
             </g>
             <g class="existed-treevis-container" v-show="showExistTreePoint" :transform="'translate('+treeVisMapCanvasPaddingLeft+','+treeVisMapCanvasPaddingTop+')'">
             </g>
+            <g class="boundary-container" v-show="showClusterBoundary"></g>
         </svg>
         <div class="treevis-preview" v-for="singleRepresentativeObj in previewRepresentativeObjList"
             :key="singleRepresentativeObj['index']"
@@ -156,6 +157,8 @@
                 legendPaddingTopBottom: 0,
                 legendCanvasWidth: 0, 
                 legendCanvasHeight: 0,
+                clientWidth: 0,
+                clientHeight: 0,
                 treeVisMapCanvasPadding: {'left': 0.02, 'right': 0.02, 'top': 0.02, 'bottom': 0.02},
                 isShowTooltip: false,
                 circleR: 3,
@@ -184,6 +187,7 @@
                 treevisDefaultPreviewContainerKey: 0,
                 clusterContentList: [],
                 clusterRepresentativeList: [],
+                clusterCenterList: [],
                 existedTreeVisIndexList: [],
                 existedTreeVisItemList: [],
                 previewClusterRepresentativeObjList: [],  // 2d, organize by the cluster
@@ -218,7 +222,7 @@
                 treevisSearchResult: null,
                 displayedDataRange: [],
                 displayedRange: [],
-                selectedPreviewAmount: 80,
+                selectedPreviewAmount: 120,
                 currentDisplayAndDataRange: null, // record the display and data range at the current state
                 updateUnderlyingDataState: false, // record whether current system is in the state of updating underlying dataset
                 displayRangeRatio: null,
@@ -344,6 +348,7 @@
                 this.arrangePreviewRepresentativeObjList()
             },
             landmarkPreviewAmount: function() {
+                console.log('update landmarkPreviewAmount')
                 this.updatePreviewRepresentativeList()
                 this.arrangePreviewRepresentativeObjList()
             },
@@ -403,6 +408,7 @@
                 'showLandmarkPoint',
                 'showLandmarkPreview',
                 'showExistTreePoint',
+                'showClusterBoundary',
                 'showExistTreePreview',
                 'landmarkPreviewAmount',
                 'refreshLandmarkPreviewState',
@@ -469,12 +475,17 @@
                 let treeVisMapContainerRef = this.treeVisMapContainerRef
                 let legendContainerRef = this.legendContainerRef
                 let thumbnailContainerRef = this.thumbnailContainerRef
+                let clientWidth = this.$refs[treeVisMapContainerRef].clientWidth;
+                let clientHeight = this.$refs[treeVisMapContainerRef].clientHeight;
                 let treeVisMapCanvasHeight = this.$refs[treeVisMapContainerRef].clientHeight;
                 let treeVisMapCanvasWidth = this.$refs[treeVisMapContainerRef].clientWidth;
                 let legendViewWidth  = this.$refs[legendContainerRef].clientWidth;
                 let legendViewHeight  = this.$refs[legendContainerRef].clientHeight;
                 let thumbnailContainerWidth = this.$refs[thumbnailContainerRef].clientWidth;
                 let thumbnailContainerHeight = this.$refs[thumbnailContainerRef].clientHeight;
+                // initialize the client width and client height
+                this.clientWidth = clientWidth
+                this.clientHeight = clientHeight
                 // initialize the thumbnail width and height
                 this.thumbnailContainerWidth = thumbnailContainerWidth
                 this.thumbnailContainerHeight = thumbnailContainerHeight
@@ -606,6 +617,92 @@
                     self.setSelectedDSLObject(selectedDSLIndex)
                 })
             },
+            updateClusterBoundary: function(transform_event, zoom_end) {
+                console.log('updateClusterBoundary', zoom_end)
+                let self = this
+                let clusterCenterList = self.clusterCenterList
+                let xScale = self.xScale, yScale = self.yScale
+                let scaledClusterCenterList = []
+                let clientWidth = this.clientWidth, clientHeight = this.clientHeight
+                for (let i = 0; i < clusterCenterList.length; i++) {
+                    let clusterCenter = clusterCenterList[i]
+                    // initialize the previewRepresentativeObj as visible at the begining
+                    let clusterCenterXScale = xScale(clusterCenter[0])
+                    let clusterCenterYScale = yScale(clusterCenter[1])
+                    let clusterCenterUpdate = transform_event.apply([clusterCenterXScale, clusterCenterYScale])
+                    if ((clusterCenterUpdate[0] < 0) || (clusterCenterUpdate[1] < 0) || (clusterCenterUpdate[0] > clientWidth) || (clusterCenterUpdate[1] > clientHeight)){
+                        continue
+                    }
+                    scaledClusterCenterList.push(clusterCenterUpdate)
+                }
+                if (true) {
+                    let voronoi = d3.voronoi().extent([[0, 0], [clientWidth, clientHeight]])
+                    d3.select(self.$el).select('.boundary-container')
+                    .selectAll('.cluster-boundary')
+                    .remove()
+                    d3.select(self.$el).select('.boundary-container')
+                        .selectAll("path")
+                        .data(voronoi.polygons(scaledClusterCenterList))
+                        .enter().append("path")
+                        .attr('class', 'cluster-boundary')
+                        .attr("d", polygon)
+                    d3.selectAll('.cluster-center').remove()
+                    d3.select(self.$el).select('.boundary-container')
+                        .selectAll(".cluster-center")
+                        .data(scaledClusterCenterList)
+                        .enter().append("circle")
+                        .attr('class', 'cluster-center')
+                        .attr("cx", function(d) { return d[0]; } )
+                        .attr("cy", function(d) { return d[1]; } );
+                }
+                function polygon(d) { 
+                    return "M" + d.join("L") + "Z"; 
+                } 
+            },
+            renderClusterBoundary: function() {
+                console.log('renderClusterBoundary')
+                // render the cluster boundary
+                let self = this
+                let clusterCenterList = self.clusterCenterList
+                let xScale = self.xScale, yScale = self.yScale
+                let scaledClusterCenterList = updateCenterScale(clusterCenterList, xScale, yScale)
+                console.log('scaledClusterCenterList', scaledClusterCenterList)
+                let clientWidth = this.clientWidth, clientHeight = this.clientHeight
+                let voronoi = d3.voronoi().extent([[0, 0], [clientWidth, clientHeight]])
+                d3.select(self.$el).select('.boundary-container')
+                    .selectAll('.cluster-boundary')
+                    .remove()
+                d3.select(self.$el).select('.boundary-container')
+                    .selectAll("path")
+                    .data(voronoi.polygons(scaledClusterCenterList))
+                    .enter().append("path")
+                    .attr('class', 'cluster-boundary')
+                    .attr("stroke","red") 
+                    .attr("d", polygon)
+                    .attr("fill-opacity", 0)
+                d3.selectAll('.cluster-center').remove()
+                d3.select(self.$el).select('.boundary-container')
+                    .selectAll(".cluster-center")
+                    .data(scaledClusterCenterList)
+                    .enter().append("circle")
+                    .attr('class', 'cluster-center')
+                    .attr("cx", function(d) { return d[0]; } )
+                    .attr("cy", function(d) { return d[1]; } );
+                // compute the polygon according to the data items
+                function polygon(d) { 
+                    return "M" + d.join("L") + "Z"; 
+                } 
+                // update the center scale
+                function updateCenterScale(clusterCenterList, xScale, yScale) {
+                    let scaledClusterCenterList = JSON.parse(JSON.stringify(clusterCenterList))
+                    for (let i = 0;i < scaledClusterCenterList.length;i++) {
+                        let clusterCenter = scaledClusterCenterList[i]
+                        clusterCenter[0] = xScale(clusterCenter[0])
+                        clusterCenter[1] = yScale(clusterCenter[1])
+                    }
+                    return scaledClusterCenterList
+                }
+            },
             updateTraditionalTreeNode: function(transform_event) {
                 let self = this
                 let selectedTraditionalTreeNodeList = this.selectedTraditionalTreeNodeList
@@ -693,6 +790,8 @@
                 this.renderZoomedRect()
                 // render landscape legend
                 this.updateLandscapeLegend()
+                // render cluster noundary
+                this.renderClusterBoundary()
             },
             updateExistedTreeVisNode: function(transform_event, zoom_end) {
                 let self = this
@@ -802,8 +901,7 @@
                     .data(representativeItemListRemained, function(d, i) {
                         return 'node-' + d[2]
                     })
-                projectionTreeItems
-                    .attr('class', function(d, i) {
+                projectionTreeItems.attr('class', function(d, i) {
                         let dslIndex = d[2]
                         let nodeClass = 'treevis-node'
                         if (dslIndex == self.selectedDSLIndex) {
@@ -1024,6 +1122,8 @@
                 self.updateTreevisPreviewRepresentatives(transform_event, zoom_end)
                 // update legend
                 self.updateLandscapeLegend()
+                // // update the cluster boundary
+                self.updateClusterBoundary(transform_event, zoom_end)
             },
             updateUnderlyingDataset: function() {
                 // compute the items in different clusters
@@ -1389,6 +1489,9 @@
                 let formData = {'level': displayedLevel, 'zoomRatio': zoomingRatio, 'treevisIndex': locateTreeVisIndex, 
                                 'displayedDataRange': self.displayedDataRange, 'type': loadRepresentativeItemType}
                 getClusterResultByLevel(formData, function(clusterResults) {
+                    self.clusterCenterList = clusterResults["cluster_center"]
+                    // render the cluster boundary
+                    // self.renderClusterBoundary()
                     // self.clusterContentList = clusterResults['content']
                     // clusterRepresentativeList indicate the tree visualization dsl list shown through points directly
                     self.clusterRepresentativeList = clusterResults['representative']
@@ -1495,7 +1598,7 @@
                 let displayedRange = self.displayedRange
                 // select prevew representative meet the requirements from the previous preview list
                 let selectedAmount = 0
-                let selectedPreviewAmount = Math.round(self.landmarkPreviewAmount * 10)
+                let selectedPreviewAmount = Math.round(self.landmarkPreviewAmount * 5)
                 let index_1 = 0, index_2 = 0
                 if (!random_state) {
                     while ((index_1 < previewRepresentativeObjList.length) && (selectedAmount < selectedPreviewAmount)) {
@@ -1521,6 +1624,7 @@
                 }
                 let within_range_count = 0, without_duplicate_count = 0, without_overlapping_count = 0
                 let filterDSLCollection = self.filterDSLCollection
+                console.log('filterDSLCollection', filterDSLCollection)
                 let filterDSLCollectionSet = null
                 if (filterDSLCollection != null) {
                     filterDSLCollectionSet = new Set(filterDSLCollection);
@@ -2180,6 +2284,18 @@
         background-color: white;
         position: absolute;
         cursor: pointer !important;
+        .boundary-container {
+            .cluster-boundary {
+                stroke: gray;
+                stroke-width: 2px;
+                fill-opacity: 0;
+                stroke-dasharray: 5 10;
+            }
+            .cluster-center {
+                fill: #d95f02;
+                r: 8;
+            }
+        }
         .el-card__body {
             padding: 0px;
             height: 100%;

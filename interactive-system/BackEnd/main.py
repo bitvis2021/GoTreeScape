@@ -58,11 +58,11 @@ def queryClusterResultByLevel():
     zooming_ratio = float(zooming_ratio)
     print('displayed_level', displayed_level, 'zooming_ratio', zooming_ratio)
     # compute the content and representative from the clusters
-    cluster_representative_list = get_content_representative(displayed_level, zooming_ratio, target_treevis_index, representative_item_type, displayed_data_range)
+    cluster_representative_list, cluster_center_list = get_content_representative(displayed_level, zooming_ratio, target_treevis_index, representative_item_type, displayed_data_range)
     # return {'content': cluster_content, 'representative': cluster_representative, 'preview-representative': cluster_preview_representative_obj_list}
     # if len(cluster_representative_list) > 200:
     #     cluster_representative_list = random.sample(cluster_representative_list, 200)
-    return {'representative': cluster_representative_list}
+    return {'representative': cluster_representative_list, 'cluster_center': cluster_center_list}
 
 @app.route('/search', methods=['GET'])
 @cross_origin()

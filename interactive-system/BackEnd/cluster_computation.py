@@ -164,6 +164,21 @@ def compute_cluster_representative(displayed_data_range, displayed_level):
         cluster_representative_result = cluster_representative_result + representative
     return cluster_representative_result
 
+def compute_cluster_center_list(displayed_data_range, displayed_level):
+    '''
+        compute the cluster center
+    '''
+    global cluster_tree_with_depth_range_parent
+    finding_cluster_result = []
+    traverse_tree_find_related_cluster(displayed_data_range, displayed_level+4, cluster_tree_with_depth_range_parent, finding_cluster_result)
+    cluster_center_list = []
+    for cluster in finding_cluster_result:
+        cluster_center = cluster['cluster_center']
+        print('cluster_center', cluster_center)
+        cluster_center_list.append(cluster_center)
+    print('cluster_center_list', cluster_center_list)
+    return cluster_center_list
+
 def get_cluster_preview_representative_obj_list(cluster_preview_representative_index_list):
     '''
     '''
@@ -213,6 +228,7 @@ def get_content_representative(current_displayed_level, zoom_ratio, target_treev
     # query the dsl object of the preview representative items
     # cluster_preview_representative_obj_list = get_cluster_preview_representative_obj_list(cluster_preview_representative_index_list)
     # return cluster_content_list, cluster_representative_list, cluster_preview_representative_obj_list
-    return cluster_representative_list
+    cluster_center_list = compute_cluster_center_list(displayed_data_range, displayed_level)
+    return cluster_representative_list, cluster_center_list
 
 

@@ -122,6 +122,9 @@
           <el-checkbox v-model="localShowLandmarkPoint" @change="updateLandscapeSettings()">show point</el-checkbox>
       </div>
       <div class="setting-item">
+          <el-checkbox v-model="localShowClusterBoundary" @change="updateLandscapeSettings()">show boundary</el-checkbox>
+      </div>
+      <div class="setting-item">
           <el-checkbox v-model="localShowLandmarkPreview" @change="updateLandscapeSettings()">show preview</el-checkbox>
       </div>
       <div class="setting-item">
@@ -219,6 +222,7 @@ export default {
       localShowLandmarkPreview: false,
       localShowExistTreePoint: false,
       localShowExistTreePreview: false,
+      localShowClusterBoundary: false,
       settingDialogOpen: false,
       localLandmarkPreviewAmount: 40, 
       localMinPreviewAmount: 0,
@@ -294,7 +298,7 @@ export default {
     // // update the traditiona tree visualization object list
     // this.updateTraditionalTreeVisObjList()
     // // initialize the settting about guidance on tree visualization landsacpe, including the points and previews
-    // this.initLandscapeSettings()
+    this.initLandscapeSettings()
   },
   mounted: function() {
     //  Initialize the linear solver
@@ -318,7 +322,8 @@ export default {
       'showLandmarkPoint',
       'showLandmarkPreview',
       'showExistTreePoint',
-      'showExistTreePreview'
+      'showExistTreePreview',
+      'showClusterBoundary'
     ])
   },
   methods: {
@@ -337,6 +342,7 @@ export default {
       this.localShowLandmarkPreview = this.showLandmarkPreview
       this.localShowExistTreePoint = this.showExistTreePoint
       this.localShowExistTreePreview = this.showExistTreePreview
+      this.localShowClusterBoundary = this.showClusterBoundary
     },
     onShow() {},
     loadHierarchicalDataList: function(treeDataName, deferObj) {
@@ -382,6 +388,7 @@ export default {
       this.UPDATE_SHOW_LAND_MARK_PREVIEW_STATE(this.localShowLandmarkPreview)
       this.UPDATE_SHOW_EXISTED_TREE_POINT_STATE(this.localShowExistTreePoint)
       this.UPDATE_SHOW_EXISTED_TREE_PREVIEW_STATE(this.localShowExistTreePreview)
+      this.UPDATE_SHOW_CLUSTER_BOUNDARY(this.localShowClusterBoundary)
     },
     refreshLandmarkPreview: function() {
       let self = this
@@ -520,7 +527,8 @@ export default {
       'UPDATE_SHOW_LAND_MARK_PREVIEW_STATE',
       'UPDATE_SHOW_EXISTED_TREE_POINT_STATE',
       'UPDATE_SHOW_EXISTED_TREE_PREVIEW_STATE',
-      'REFRESH_LANDMARK_PREVIEW'
+      'REFRESH_LANDMARK_PREVIEW',
+      'UPDATE_SHOW_CLUSTER_BOUNDARY'
     ])
   }
 }

@@ -51,6 +51,7 @@ export function getClusterResultByLevel (formData, getClusterByLevelCallback) {
     timeout: 50000
   })
   .then((res) => {
+    console.log('data', res['data'])
     // parseStr2Obj(res['data']['preview-representative'])
     getClusterByLevelCallback(res['data'])
   })
