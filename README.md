@@ -12,7 +12,47 @@ Users can flexibly adjust the displayed range of landscape according to their re
 ![gotreescape user interface](https://github.com/gotreescape/gotreescape/blob/figures/Figures/gotreescape-user-interface1.png?raw=true)
 
 
-## GoTreeScape System
+# Code structure introduction
+This projection consists of two parts. The first part is about the model training based on the tree visualization declarative grammar and the GVAE training model (/treevis-gvae); The second part is about the the GoTreeScape interactive system (/interactive-system). \\
+
+## Model training part (/treevis-gvae):
+* main.py: the entry of model training part 
+* model_vae_weight.py: defines the weighted VAE model which refines the loss function with the weights of design features
+* train_weight.py: train the weighted vae model defined in the model_vae_weight.py
+* vis_grammar.py: define the CFG grammar for tree visualizations based on GoTree Grammar
+* simplify_cluster_tree.py: simplify the hierarchical clustering results according to the setted threshold
+* compute_umap_embeddings.py: compute the embedding results based on UMAP dimensionality reduction technique for the latent vectors
+* compute_tsne_sklearn.py: compute the embedding results based on t-SNE dimensionality reduction techniques for the latent vectors
+* process_csv.py: read and save the csv file 
+* process_json.py: read and save the json file 
+* sourcedata/training.txt: the data about the  tree visualization declarative grammar
+* simplified_hierarchical_cluster/: save the simplified hierarchical clustering results
+* shell_files/: the shell file for training weighted vae mode, computing the latent vectors, simplifying the clustering results, computing the UMAP dimensionality reduction results, computing the t-SNE dimensionality reduction results. 
+* projection_results: save the projection results
+* hierarchical_clustering_results: save the hierarchical clustering results
+* embeddings: save the embedding results
+
+## GoTreeScape prototype interactive system (/interactive-system):
+The GoTreeScape prototype system is based on the client-server architecture, it consists of two parts: the BackEnd and the FrontEnd.
+
+### FrontEnd
+* main.js: the entry of the FrontEnd part
+* App.vue: the entry of the FrontEnd view, consisting of the Tree Illustrator panel (views/MainTap/TreeIllustratorTap.vue) based on the GoTree declarative grammar and GoTreeScape panel (views/MainTap/GoTreeScapeTap.vue) which show the landscape of GoTree grammar. 
+* views/TreeVisMapView/: rendering the lanscape view in the GoTreeScape prototype system.
+* views/TreeVisThumbnail/: show the representative tree visualization on the GoTreeScape prototype system.
+* views/TreeCanvasView/, views/TreeUnitParameterView/, views/TreeModuleView/, views/ParameterView/, views/DslList/, views/Components/: the tree visualization canvas, tree unit parameters, tree visualization module, parameter model, and declarative grammar list, and the different components within the TreeUnit view. These parts are based on the GoTree declarative grammar and the Tree Illustrator prototype system. 
+* treevis-style/: compute the tree visualization parameters based on the declarative grammar. 
+* treevis-node-glyph/: compute the node visual elements in tree visualizations, in particular, all nodes in tree visualizations are represented by the \<path\> for the smooth transition between different tree visualizations. 
+
+
+### BackEnd
+The BackEnd
+
+
+
+
+
+## How to run the GoTreeScape prototype system?
 The front-end and back-end code of the interface is under the system/ folder.
 
 ### GoTreeScape FrontEnd
