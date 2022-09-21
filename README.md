@@ -13,7 +13,7 @@ Users can flexibly adjust the displayed range of landscape according to their re
 
 
 # Code structure introduction
-This projection consists of two parts. The first part is about the model training based on the tree visualization declarative grammar and the GVAE training model (/treevis-gvae); The second part is about the the GoTreeScape interactive system (/interactive-system). \\
+This projection consists of two parts. The first part is about the model training based on the tree visualization declarative grammar and the GVAE training model (/treevis-gvae); The second part is about the the GoTreeScape interactive system (/interactive-system). 
 
 ## Model training part (/treevis-gvae):
 * **main.py**: the entry of model training part 
@@ -23,8 +23,8 @@ This projection consists of two parts. The first part is about the model trainin
 * **simplify_cluster_tree.py**: the simplification for the hierarchical clustering results according to the specific threshold
 * **compute_umap_embeddings.py**: computing the embedding results based on UMAP dimensionality reduction technique for the latent vectors
 * **compute_tsne_sklearn.py**: computing the embedding results based on t-SNE dimensionality reduction techniques for the latent vectors
-* **process_csv.py**: the processing for the csv file 
-* **process_json.py**: the processing for the json file 
+* **process_csv.py**: the processing function (reading and saving) for the csv file 
+* **process_json.py**: the processing function (reading and saving) for the json file 
 * **sourcedata/training.txt**: the data about the tree visualization declarative grammar
 * **simplified_hierarchical_cluster/**: the hierarchical clustering results after simplification
 * **shell_files/**: the shell file for training weighted vae mode, computing the latent vectors, simplifying the clustering results, computing the UMAP dimensionality reduction results, computing the t-SNE dimensionality reduction results. 
@@ -36,6 +36,9 @@ This projection consists of two parts. The first part is about the model trainin
 The GoTreeScape prototype system is based on the client-server architecture, it consists of two parts: the BackEnd and the FrontEnd.
 
 ### FrontEnd
+The FrontEnd of GoTreeScape prototype system is based on the [vue framework](https://vuejs.org/). 
+
+
 * **main.js**: the entry of the FrontEnd part
 * **App.vue**: the entry of the FrontEnd view, which consists of the Tree Illustrator panel (views/MainTap/TreeIllustratorTap.vue) based on the GoTree declarative grammar and GoTreeScape panel (views/MainTap/GoTreeScapeTap.vue) which show the landscape of GoTree grammar. 
 * **views/TreeVisMapView/**: rendering the landscape view in the GoTreeScape prototype system.
@@ -50,8 +53,15 @@ The GoTreeScape prototype system is based on the client-server architecture, it 
 
 ### BackEnd
 
+The BackEnd of GoTreeScape prototype system is based on the [Flask framework](https://flask.palletsprojects.com/en/2.2.x/).
 
-
+* **main.js**: the entry of the BackEnd part. It defines the handler of querying declarative grammar, filtering the dsl collection, querying the representative landmarks on the landscape, computing the position by uploading the declarative grammar.
+* **process_csv.py**: the processing function (reading and saving) for the csv file 
+* **process_json.py**: the processing function (reading and saving) for the json file 
+* **load_data.py**: loading the txt file
+* **cluster_computation.py**: compute the representative tree visualizations according to the zooming level specified by the FrontEnd.
+* **dsl_collection.py**: loading the dsl collection and filtering the tree visualization collection by some specific design features.
+* **compute_cluster_center.py**: computing the central positions of different clusters, which is used for the computing explicit boundaries between different clusters.
 
 
 ## How to run the GoTreeScape prototype system?
